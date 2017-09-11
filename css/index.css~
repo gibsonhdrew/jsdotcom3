@@ -19,34 +19,38 @@ a:hover {
     cursor: pointer;
 }
 
+.metaNav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    color: #EDEDED;
+    text-align: center;
+}
+
 .nav {
+    padding-top: 3px;
+    padding-bottom: 3px;
     background-color: #222222;
-    color: #EDEDED;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    padding-left: 13vw;
-    padding-right: 17vw;
+}
+
+.nav, .nav2 {
     display: flex;
     justify-content: space-between;
 }
 
-.nav2 {
-    background-color: #444444;
-    color: #EDEDED;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    padding-left: 13vw;
-    padding-right: 17vw;
-    display: flex;
-    justify-content: space-between;
-}
-
-.nav li {
+.nav li, .nav2 li {
     display: inline-block;
+    width: 25%;
 }
 
 .nav2 li {
-    display: inline-block;
+    padding-top: 3px;
+    padding-bottom:3px;
+    -webkit-animation: fadein 0.6s;
+       -moz-animation: fadein 0.6s;
+        -ms-animation: fadein 0.6s; 
+         -o-animation: fadein 0.6s;
+            animation: fadein 0.6s;
 }
 
 .boldNav {
@@ -54,32 +58,69 @@ a:hover {
 }
 
 .bodyContent {
-    margin-top: 30px;
-    margin-left: 13vw;
-    margin-right: 17vw;
+    margin-top: 100px;
+    margin-left: 18vw;
+    margin-right: 22vw;
 }
 
-.cb1 { 
-    background-color: #140D12;
-    color: white;
+.cb1, .cb2, .cb3, .cb4, .cb5 {
+    width: 43%;
+    text-align: center;
 }
 
-.cb2 {
-    background-color: #623C4B;
+.db1 { background-color: #FF3100; }
+.db2 { background-color: #FFA700; }
+.db3 { background-color: #00BF32; }
+.db4 { background-color: #0D56A6; }
+.db5 { background-color: #444444; }
+
+.sectTitle {
     color: white;
+    padding-left: 3px;
+}
+.visualArt {
+    width: 100%;
 }
 
-.cb3 {
-    background-color: #BD2F35;
-    color: white;
+.bodyText {
+    width: 100%;
+    font-size: 13px;
 }
 
-.cb4 {
-    background-color: #C1B8B8;
-    color: white;
+.anchor {
+    position: relative;
+    top: -48px;
 }
 
-.cb5 {
-    background-color: #688E9D;
-    color: white;
+#earshot {
+    position: absolute;
+    top: 0;
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }

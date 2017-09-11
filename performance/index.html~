@@ -12,9 +12,30 @@
                 <li><a href='../cv/index.html'>CV</a></li>
                 <li><a href='mailto:jaimesunwoo@gmail.com'>Contact</a></li>
             </ul>
+            <ul class='nav2'>
+                <li class='cb1 db1'><a href='#earshot'>Earshot</a></li>
+                <li class='cb2 db2'><a href='#household'>Household</a></li>
+                <li class='cb3 db3'><a href='#rot'>Rot</a></li>
+                <li class='cb4 db4'><a href='#creature'>The Creature</a></li>
+            </ul>
         </div>
         <div class='bodyContent'>
-            <h3>Performance</h3>
+            <div id='earshot'></div>
+            <h2 id='earshot' class='db1 sectTitle'>Earshot</a></h2>
+            <img class='visualArt' src='../images/square.jpg'></img>
+            <p class='bodyText'>Even as Irma was downgraded from a hurricane to a tropical storm, millions remained without power, while the police and the National Guard carried out search-and-rescue operations across the state. Many areas faced fuel shortages, as well as downed power lines and standing water. Fallen trees, ripped from their roots by surging waters and whipping winds that reached 130 miles per hour, blocked roadways — further hampering the recovery.</p>
+            <div id='household' class='anchor'></div>
+            <h2 class='db2 sectTitle'>Household</h2>
+            <img class='visualArt' src='../images/square.jpg'></img>
+            <p class='bodyText'>Even as Irma was downgraded from a hurricane to a tropical storm, millions remained without power, while the police and the National Guard carried out search-and-rescue operations across the state. Many areas faced fuel shortages, as well as downed power lines and standing water. Fallen trees, ripped from their roots by surging waters and whipping winds that reached 130 miles per hour, blocked roadways — further hampering the recovery.</p>
+            <div id='rot' class='anchor'></div>
+            <h2 class='db3 sectTitle'>Rot</h2>
+            <img class='visualArt' src='../images/square.jpg'></img>
+            <p class='bodyText'>Even as Irma was downgraded from a hurricane to a tropical storm, millions remained without power, while the police and the National Guard carried out search-and-rescue operations across the state. Many areas faced fuel shortages, as well as downed power lines and standing water. Fallen trees, ripped from their roots by surging waters and whipping winds that reached 130 miles per hour, blocked roadways — further hampering the recovery.</p>
+            <div id='creature' class='anchor'></div>
+            <h2 class='db4 sectTitle'>The Creature</h2>
+            <img class='visualArt' src='../images/square.jpg'></img>
+            <p class='bodyText'>Even as Irma was downgraded from a hurricane to a tropical storm, millions remained without power, while the police and the National Guard carried out search-and-rescue operations across the state. Many areas faced fuel shortages, as well as downed power lines and standing water. Fallen trees, ripped from their roots by surging waters and whipping winds that reached 130 miles per hour, blocked roadways — further hampering the recovery.</p>
         </div>
     </body>
 </html>
