@@ -58,9 +58,10 @@ a:hover {
 }
 
 .bodyContent {
-    margin-top: 100px;
+    margin-top: 70px;
     margin-left: 18vw;
     margin-right: 22vw;
+    margin-bottom: 40px;
 }
 
 .cb1, .cb2, .cb3, .cb4, .cb5 {
@@ -92,10 +93,22 @@ a:hover {
     top: -48px;
 }
 
-#earshot {
-    position: absolute;
-    top: 0;
+.cvYear {
+    font-size: 12px;
+    margin-left: 8px;
+    float: left;
 }
+
+.cvDesc {
+   font-size: 12px;
+   margin-left: 50px; 
+   margin-bottom: 8px;
+}
+
+.cvDesc > span {
+
+}
+
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }

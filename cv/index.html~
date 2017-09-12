@@ -6,15 +6,46 @@
     <body>
         <div class='metaNav'>
             <ul class='nav'>
-                <li class='homeNav'><a href='../index.html'>Jaime Sunwoo</a></li>
+                <li><a href='../index.html'>Jaime Sunwoo</a></li>
                 <li><a href='../visual-art/index.html'>Visual Art</a></li>
                 <li><a href='../performance/index.html'>Performance</a></li>
-                <li><a href='./index.html'>CV</a></li>
+                <li class='boldNav'><a href='./index.html'>CV</a></li>
                 <li><a href='mailto:jaimesunwoo@gmail.com'>Contact</a></li>
             </ul>
         </div>
         <div class='bodyContent'>
-            <h3>CV</h3>
+            <h2>Jaime Sunwoo</h2>
+            <p>jaimesunwoo@gmail.com | <a href='../index.html'>www.jaimesunwoo.com</a></p>
+            <br>
+            <h4>EDUCATION</h4> 
+            <span class='cvYear'>2014</span><div class='cvDesc'><span>BA, Art, Yale University School of Art, New Haven, CT</span><br></div>
+            <span class='cvYear'>2010</span><div class='cvDesc'><span>Fiorello H. LaGuardia High School of Music & Art and Performing Arts, New York, NY</span><br></div>
+            <h4>PROJECTS</h4> 
+            <span class='cvYear'>2015</span><div class='cvDesc'><span>Earshot (www.earshotplay.com), Director, Producer, Bonnie Vee, Kilo Bravo, New York, NY</span><br></div>
+            <span class='cvYear'>2014</span><div class='cvDesc'><span>The Creature, Leaf Medical, DUMBO Arts Festival, Brooklyn, NY</span><br>
+            <span>Household, Director, Producer, Writer, Davenport Theater, New Haven, CT</span><br>
+            <span>ROT, 36 Edgewood, Yale University, New Haven, CT</span><br></div>
+            <span class='cvYear'>2012</span><div class='cvDesc'><span>Objects in Abstraction, Green Hall Gallery, Yale University, New Haven, CT</span><br></div>
+            <span class='cvYear'>2011</span><div class='cvDesc'><span>Daily Routines, Maya’s Room Gallery, New Haven, CT</span><br></div>
+            <h4>GROUP EXHIBITIONS</h4> 
+            <span class='cvYear'>2014</span><div class='cvDesc'><span>Assembly, Green Hall Gallery, Yale University, New Haven, CT</span><br>
+            <span>Open House, 32 Lilac, New Haven, CT</span><br></div>
+            <span class='cvYear'>2011</span><div class='cvDesc'><span>The International Artists at Home and Abroad, Broadway NYC Gallery, New York, NY</span><br></div>
+            <h4>RELATED WORK EXPERIENCE</h4> 
+            <span class='cvYear'>2017</span><div class='cvDesc'><span>Under the Radar Festival, Intern, The Public Theater, New York, NY, Sept 2017-Jan 2018</span><br></div>
+            <span class='cvYear'>2016</span><div class='cvDesc'><span>Whoop Dee Doo, Collaborating Artist, The Highline, New York, NY, May-Aug 2016</span><br></div>
+            <span class='cvYear'>2014</span><div class='cvDesc'><span>We&#39;re Very Proud..., Co-Producer, Teatro LATEA, FringeNYC, New York, NY</span><br>
+            <span>Federico Solmi, Artist Assistant, Brooklyn, NY</span><br></div>
+            <span class='cvYear'>2013</span><div class='cvDesc'><span>Puppet Kitchen LLC, Design Intern, New York, NY, Jun-Aug 2013</span><br></div>
+            <h4>BIBLIOGRAPHY</h4> 
+            <span class='cvYear'>2015</span><div class='cvDesc'><span>Kemy Lin, &ldquo;Earshot, a theatrical sound installation, at Bonnie Vee and Kilo Bravo”, Culturebot, 4/23</span><br></div>
+            <span class='cvYear'>2014</span><div class='cvDesc'><span>Eric Xiao, &ldquo;Play to Focus on Improvised Music&rdquo;, Yale Daily News, 4/26</span><br>
+            <span>Eric Xiao, &ldquo;Before the Curtain Rises&rdquo;, Yale Daily News, 4/28</span><br>
+            <span>Thomas MacMillan, This House Got Built After All&rdquo;, New Haven Independent, 4/28</span><br></div>
+            <span class='cvYear'>2011</span><div class='cvDesc'><span>Abraham Lubelski, &ldquo;Artists At Home And Abroad&rdquo;, NYArts Magazine, Spring 2011</span><br>
+            <span>Katerina Karatzia, &ldquo;Examining the Ordinary Through Performance Art&rdquo;, Yale Daily News, 4/18</span><br></div>
+            <h4>AWARDS</h4> 
+            <span class='cvYear'>2014</span><div class='cvDesc'><span>Saybrook Creative and Performing Arts Awards (four-time recipient since 2011)</span><br></div>
         </div>
     </body>
 </html>
