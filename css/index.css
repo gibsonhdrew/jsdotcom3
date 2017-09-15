@@ -60,8 +60,8 @@ a:hover {
 
 .bodyContent {
     margin-top: 70px;
-    margin-left: 10vw;
-    margin-right: 10vw;
+    margin-left: 5vw;
+    margin-right: 30vw;
     margin-bottom: 40px;
 }
 
@@ -86,12 +86,12 @@ a:hover {
 
 .bodyText {
     width: 100%;
-    font-size: 13px;
+    font-size: 18px;
 }
 
 .anchor {
     position: relative;
-    top: -48px;
+    top: -69px;
 }
 
 .cvYear {
@@ -106,8 +106,38 @@ a:hover {
    margin-bottom: 8px;
 }
 
-.cvDesc > span {
+.slideshow {
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    border: 3px solid #222222;
+}
 
+.mySlides {
+    max-width: 100%;
+    height: auto;
+    -webkit-animation: fadein 0.6s;
+       -moz-animation: fadein 0.6s;
+        -ms-animation: fadein 0.6s; 
+         -o-animation: fadein 0.6s;
+            animation: fadein 0.6s;
+}
+
+.w3-button {
+    border: 2px solid #444444;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.w3-button:hover {
+    cursor: pointer;
+}
+
+.w3-button:active {
+    background-color: #666666;
+    color: #EDEDED;
 }
 
 @keyframes fadein {

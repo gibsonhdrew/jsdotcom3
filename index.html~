@@ -4,6 +4,7 @@
         <link rel='stylesheet' href='css/index.css'>
     </head>
     <body>
+        <img class='visualArt' style='opacity:0.85;' src='./images/performance/rot/creature-about.jpg'></img>
         <div class='metaNav'>
             <ul class='nav'>
                 <li class='boldNav'><a href='./index.html'</a>Jaime Sunwoo</a></li>
@@ -13,6 +14,5 @@
                 <li><a href='mailto:jaimesunwoo@gmail.com'>Contact</a></li>
             </ul>
         </div>
-        <img class='visualArt' src='./images/performance/rot/creature-about.jpg'></img>
     </body>
 </html>
