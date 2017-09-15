@@ -66,7 +66,6 @@ a:hover {
 }
 
 .cb1, .cb2, .cb3, .cb4, .cb5 {
-    width: 43%;
     text-align: center;
 }
 
@@ -114,6 +113,8 @@ a:hover {
 }
 
 .mySlides {
+    max-width: 100%;
+    height: auto;
     -webkit-animation: fadein 0.6s;
        -moz-animation: fadein 0.6s;
         -ms-animation: fadein 0.6s; 
