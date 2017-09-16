@@ -90,7 +90,6 @@
             <ul class='nav'>
                 <li><a href='../index.html'>Jaime Sunwoo</a></li>
                 <li class='boldNav'><a href='./index.html'>Performance</a></li>
-                <li><a href='../visual-art/index.html'>Visual Art</a></li>
                 <li><a href='../cv/index.html'>CV</a></li>
                 <li><a href='mailto:jaimesunwoo@gmail.com'>Contact</a></li>
             </ul>
@@ -130,12 +129,12 @@
             }
 
             function showDivs0(n) {
-                var i;
+                var q;
                 var x = document.getElementsByClassName("mySlides0");
                 if (n > x.length) {slideIndex[0] = 1}
                 if (n < 1) {slideIndex[0] = x.length} ;
-                for (i = 0; i < x.length; i++) {
-                    x[i].style.display = "none";
+                for (q = 0; q < x.length; q++) {
+                    x[q].style.display = "none";
                 }
                 x[slideIndex[0]-1].style.display = "block";
             }
