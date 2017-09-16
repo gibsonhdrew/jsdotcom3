@@ -7,35 +7,83 @@
         <div class='bodyContent'>
             <div id='earshot' class='anchor'></div>
             <h2 class='db1 sectTitle'>Earshot</a></h2>
-            <img class='visualArt' src='../images/square.jpg'></img>
+            <div class='slideshow'>
+                <img class="mySlides0" src="../images/performance/rot/resized/a.jpg">
+                <img class="mySlides0" src="../images/performance/rot/resized/b.jpg">
+                <img class="mySlides0" src="../images/performance/rot/resized/c.jpg">
+                <img class="mySlides0" src="../images/performance/rot/resized/d.jpg">
+                <img class="mySlides0" src="../images/performance/rot/resized/e.jpg">
+                <img class="mySlides0" src="../images/performance/rot/resized/f.jpg">
+                <img class="mySlides0" src="../images/performance/rot/resized/g.jpg">
+                <img class="mySlides0" src="../images/performance/rot/resized/h.jpg">
+                <img class="mySlides0" src="../images/performance/rot/resized/i.jpg">
+                <img class="mySlides0" src="../images/performance/rot/resized/k.jpg">
+                <img class="mySlides0" src="../images/performance/rot/resized/l.jpg">
+            </div>
+            <div style='text-align:center;font-size:36px;'>
+                <button class="w3-button w3-display-left" onclick="plusDivs0(-1)">&#10094;</button>
+                <button class="w3-button w3-display-right" onclick="plusDivs0(+1)">&#10095;</button>
+            </div>
             <p class='bodyText'>Even as Irma was downgraded from a hurricane to a tropical storm, millions remained without power, while the police and the National Guard carried out search-and-rescue operations across the state. Many areas faced fuel shortages, as well as downed power lines and standing water. Fallen trees, ripped from their roots by surging waters and whipping winds that reached 130 miles per hour, blocked roadways — further hampering the recovery.</p>
             <div id='household' class='anchor'></div>
             <h2 class='db2 sectTitle'>Household</h2>
-            <img class='visualArt' src='../images/square.jpg'></img>
+            <div class='slideshow'>
+                <img class="mySlides1" src="../images/performance/rot/resized/a.jpg">
+                <img class="mySlides1" src="../images/performance/rot/resized/b.jpg">
+                <img class="mySlides1" src="../images/performance/rot/resized/c.jpg">
+                <img class="mySlides1" src="../images/performance/rot/resized/d.jpg">
+                <img class="mySlides1" src="../images/performance/rot/resized/e.jpg">
+                <img class="mySlides1" src="../images/performance/rot/resized/f.jpg">
+                <img class="mySlides1" src="../images/performance/rot/resized/g.jpg">
+                <img class="mySlides1" src="../images/performance/rot/resized/h.jpg">
+                <img class="mySlides1" src="../images/performance/rot/resized/i.jpg">
+                <img class="mySlides1" src="../images/performance/rot/resized/k.jpg">
+                <img class="mySlides1" src="../images/performance/rot/resized/l.jpg">
+            </div>
+            <div style='text-align:center;font-size:36px;'>
+                <button class="w3-button w3-display-left" onclick="plusDivs1(-1)">&#10094;</button>
+                <button class="w3-button w3-display-right" onclick="plusDivs1(+1)">&#10095;</button>
+            </div>
             <p class='bodyText'>Even as Irma was downgraded from a hurricane to a tropical storm, millions remained without power, while the police and the National Guard carried out search-and-rescue operations across the state. Many areas faced fuel shortages, as well as downed power lines and standing water. Fallen trees, ripped from their roots by surging waters and whipping winds that reached 130 miles per hour, blocked roadways — further hampering the recovery.</p>
             <div id='rot' class='anchor'></div>
             <h2 class='db3 sectTitle'>Rot</h2>
             <div class='slideshow'>
-                <img class="mySlides" src="../images/performance/rot/resized/a.jpg">
-                <img class="mySlides" src="../images/performance/rot/resized/b.jpg">
-                <img class="mySlides" src="../images/performance/rot/resized/c.jpg">
-                <img class="mySlides" src="../images/performance/rot/resized/d.jpg">
-                <img class="mySlides" src="../images/performance/rot/resized/e.jpg">
-                <img class="mySlides" src="../images/performance/rot/resized/f.jpg">
-                <img class="mySlides" src="../images/performance/rot/resized/g.jpg">
-                <img class="mySlides" src="../images/performance/rot/resized/h.jpg">
-                <img class="mySlides" src="../images/performance/rot/resized/i.jpg">
-                <img class="mySlides" src="../images/performance/rot/resized/k.jpg">
-                <img class="mySlides" src="../images/performance/rot/resized/l.jpg">
+                <img class="mySlides2" src="../images/performance/rot/resized/a.jpg">
+                <img class="mySlides2" src="../images/performance/rot/resized/b.jpg">
+                <img class="mySlides2" src="../images/performance/rot/resized/c.jpg">
+                <img class="mySlides2" src="../images/performance/rot/resized/d.jpg">
+                <img class="mySlides2" src="../images/performance/rot/resized/e.jpg">
+                <img class="mySlides2" src="../images/performance/rot/resized/f.jpg">
+                <img class="mySlides2" src="../images/performance/rot/resized/g.jpg">
+                <img class="mySlides2" src="../images/performance/rot/resized/h.jpg">
+                <img class="mySlides2" src="../images/performance/rot/resized/i.jpg">
+                <img class="mySlides2" src="../images/performance/rot/resized/k.jpg">
+                <img class="mySlides2" src="../images/performance/rot/resized/l.jpg">
             </div>
             <div style='text-align:center;font-size:36px;'>
-                <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-                <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+                <button class="w3-button w3-display-left" onclick="plusDivs2(-1)">&#10094;</button>
+                <button class="w3-button w3-display-right" onclick="plusDivs2(+1)">&#10095;</button>
             </div>
             <p class='bodyText'>Even as Irma was downgraded from a hurricane to a tropical storm, millions remained without power, while the police and the National Guard carried out search-and-rescue operations across the state. Many areas faced fuel shortages, as well as downed power lines and standing water. Fallen trees, ripped from their roots by surging waters and whipping winds that reached 130 miles per hour, blocked roadways — further hampering the recovery.</p>
             <div id='creature' class='anchor'></div>
             <h2 class='db4 sectTitle'>The Creature</h2>
-            <img class='visualArt' src='../images/square.jpg'></img>
+            <div class='slideshow'>
+                <img class="mySlides3" src="../images/performance/rot/resized/a.jpg">
+                <img class="mySlides3" src="../images/performance/rot/resized/b.jpg">
+                <img class="mySlides3" src="../images/performance/rot/resized/c.jpg">
+                <img class="mySlides3" src="../images/performance/rot/resized/d.jpg">
+                <img class="mySlides3" src="../images/performance/rot/resized/e.jpg">
+                <img class="mySlides3" src="../images/performance/rot/resized/f.jpg">
+                <img class="mySlides3" src="../images/performance/rot/resized/g.jpg">
+                <img class="mySlides3" src="../images/performance/rot/resized/h.jpg">
+                <img class="mySlides3" src="../images/performance/rot/resized/i.jpg">
+                <img class="mySlides3" src="../images/performance/rot/resized/k.jpg">
+                <img class="mySlides3" src="../images/performance/rot/resized/l.jpg">
+            </div>
+            <div style='text-align:center;font-size:36px;'>
+                <button class="w3-button w3-display-left" onclick="plusDivs3(-1)">&#10094;</button>
+                <button class="w3-button w3-display-right" onclick="plusDivs3(+1)">&#10095;</button>
+            </div>
             <p class='bodyText'>Even as Irma was downgraded from a hurricane to a tropical storm, millions remained without power, while the police and the National Guard carried out search-and-rescue operations across the state. Many areas faced fuel shortages, as well as downed power lines and standing water. Fallen trees, ripped from their roots by surging waters and whipping winds that reached 130 miles per hour, blocked roadways — further hampering the recovery.</p>
         </div>
         <div class='metaNav'>
@@ -54,22 +102,75 @@
             </ul>
         </div>
         <script>
-            var slideIndex = 1;
-            showDivs(slideIndex);
+            var slideIndex = [];
 
-            function plusDivs(n) {
-                showDivs(slideIndex += n);
+            for (i = 0; i < 4; i++) {
+                var slideIndex[i] = 1;
             }
 
-            function showDivs(n) {
+            showDivs0(slideIndex[0]);
+            showDivs1(slideIndex[1]);
+            showDivs2(slideIndex[2]);
+            showDivs3(slideIndex[3]);
+
+            function plusDivs0(n) {
+                showDivs0(slideIndex[0] += n);
+            }
+
+            function plusDivs1(n) {
+                showDivs1(slideIndex[1] += n);
+            }
+
+            function plusDivs2(n) {
+                showDivs2(slideIndex[2] += n);
+            }
+
+            function plusDivs3(n) {
+                showDivs3(slideIndex[3] += n);
+            }
+
+            function showDivs0(n) {
                 var i;
-                var x = document.getElementsByClassName("mySlides");
-                if (n > x.length) {slideIndex = 1}
-                if (n < 1) {slideIndex = x.length} ;
+                var x = document.getElementsByClassName("mySlides0");
+                if (n > x.length) {slideIndex[0] = 1}
+                if (n < 1) {slideIndex[0] = x.length} ;
                 for (i = 0; i < x.length; i++) {
                     x[i].style.display = "none";
                 }
-                x[slideIndex-1].style.display = "block";
+                x[slideIndex[0]-1].style.display = "block";
+            }
+
+            function showDivs1(n) {
+                var i;
+                var x = document.getElementsByClassName("mySlides1");
+                if (n > x.length) {slideIndex[1] = 1}
+                if (n < 1) {slideIndex[1] = x.length} ;
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                x[slideIndex[1]-1].style.display = "block";
+            }
+
+            function showDivs2(n) {
+                var i;
+                var x = document.getElementsByClassName("mySlides2");
+                if (n > x.length) {slideIndex[2] = 1}
+                if (n < 1) {slideIndex[2] = x.length} ;
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                x[slideIndex[2]-1].style.display = "block";
+            }
+
+            function showDivs3(n) {
+                var i;
+                var x = document.getElementsByClassName("mySlides3");
+                if (n > x.length) {slideIndex[3] = 1}
+                if (n < 1) {slideIndex[3] = x.length} ;
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                x[slideIndex[3]-1].style.display = "block";
             }
         </script>
     </body>
