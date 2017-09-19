@@ -239,10 +239,15 @@ a:hover {
     }
 
     .bodyContent {
-        margin-top: 240px;
+        margin-top: 210px;
         margin-left: 4vw;
         margin-right: 4vw;
         margin-bottom: 40px;
+    }
+
+    .sectTitle {
+        font-size: 36px;
+        margin-bottom: 25px;
     }
 
     .bodyText {
