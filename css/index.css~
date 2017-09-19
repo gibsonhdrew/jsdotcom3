@@ -218,6 +218,10 @@ a:hover {
         margin-bottom: 40px;
     }
 
+    .bodyText {
+        font-size: 24px;
+    }
+
     .anchor {
         position: relative;
         top: -260px;
@@ -284,7 +288,10 @@ a:hover {
        margin-bottom: 8px;
     }
 
-    .caption { font-size: 12px; }
+    .caption { 
+        font-size: 16px; 
+        margin-bottom: 20px;
+    }
 }
 
 @media screen and (max-device-width: 800px) and (orientation:landscape) {
@@ -297,4 +304,6 @@ a:hover {
         position: relative;
         top: -15px;
     }
+
+    .cvYear { font-size: 20px; }
 }
