@@ -292,4 +292,9 @@ a:hover {
         position: absolute; 
         top: 0px;
     }
+
+    .anchor {
+        position: relative;
+        top: -15px;
+    }
 }
