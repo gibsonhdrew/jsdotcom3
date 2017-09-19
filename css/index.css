@@ -37,8 +37,9 @@ a:hover {
     background-color: #222222;
 }
 
-.indexImg {
+.center-cropped img {
     width: 100%;
+    opacity: 0.85;
 }
 
 .nav, .nav2 {
@@ -120,17 +121,24 @@ a:hover {
     max-width: 100%;
     height: auto;
     overflow: hidden;
-    border: 3px solid #222222;
 }
 
-.mySlides0, .mySlides1, .mySlides2, .mySlides3 {
-    width: 100%;
+.slideImg {
+    width: calc(100% - 6px);
     height: auto;
+    border: 3px solid #222222;
     -webkit-animation: fadein 0.6s;
        -moz-animation: fadein 0.6s;
         -ms-animation: fadein 0.6s; 
          -o-animation: fadein 0.6s;
             animation: fadein 0.6s;
+}
+
+.caption {
+    font-size: 18px;
+    text-align: center;
+    color: #666666;
+    margin-bottom: 5px;
 }
 
 .w3-button {
@@ -182,26 +190,37 @@ a:hover {
 
 @media screen and (max-device-width: 800px) {
     .w3-button {
-        margin-top: 30px;
+        margin-top: 10px;
         padding-left: 80px;
         padding-right: 80px;
         padding-top: 30px;
         padding-bottom: 30px;
+        margin-bottom: 30px;
         font-size: 24px;
     }
 
-    .indexImg {
-        width: 300%;
-        margin-left: -600px;
-        height: auto;
-        overflow-x: hidden;
+    .center-cropped {
+        max-width: 100%;
+        max-height: 100%;
+        overflow: hidden;
+    }
+    
+    .center-cropped img {
+        width: 200%;
+        margin-left: -500px;
+        overflow: hidden;
     }
 
     .bodyContent {
-        margin-top: 245px;
+        margin-top: 280px;
         margin-left: 4vw;
         margin-right: 4vw;
         margin-bottom: 40px;
+    }
+
+    .anchor {
+        position: relative;
+        top: -260px;
     }
 
     .cvBodyContent {
@@ -227,14 +246,18 @@ a:hover {
         text-align: center;
     }
 
+    .nav li {
+        border-right: 2px solid #333333;
+        border-left: 2px solid #333333;
+    }
+
     .nav li, .nav2 li {
-        padding-top: 28px;
+        padding-top: 34px;
         display: inline-block;
         text-align: center;
     }
 
     .nav2 li {
-        margin-top: 8px;
         width: 100%;
         padding-bottom:3px;
         -webkit-animation: fadein 0.6s;
@@ -260,5 +283,7 @@ a:hover {
        margin-left: 130px; 
        margin-bottom: 8px;
     }
+
+    .caption { font-size: 12px; }
 }
 
