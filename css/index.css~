@@ -37,9 +37,17 @@ a:hover {
     background-color: #222222;
 }
 
+.center-cropped {
+    border: 4px solid #222222;
+    max-height: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    width: 100%;
+    opacity: 0.95;
+}
+
 .center-cropped img {
     width: 100%;
-    opacity: 0.85;
 }
 
 .nav, .nav2 {
@@ -193,6 +201,7 @@ a:hover {
     body {
         -moz-text-size-adjust: 50%;
     }
+
     .w3-button {
         margin-top: 10px;
         padding-left: 80px;
@@ -204,14 +213,16 @@ a:hover {
     }
 
     .center-cropped {
-        max-width: 100%;
+        max-width: calc(100vw - 12px);
         max-height: 100%;
         overflow: hidden;
+        border: 8px solid #222222;
     }
     
     .center-cropped img {
         width: 200%;
-        margin-left: -500px;
+        margin-left: -540px;
+        margin-top: 115px;
         overflow: hidden;
     }
 
