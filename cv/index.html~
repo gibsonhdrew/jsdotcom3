@@ -8,12 +8,12 @@
             <ul class='nav'>
                 <li><a href='../index.html'>Jaime Sunwoo</a></li>
                 <li><a href='../performance/index.html'>Performance</a></li>
-                <li><a href='../visual-art/index.html'>Visual Art</a></li>
+                <!-- <li><a href='../visual-art/index.html'>Visual Art</a></li> i-->
                 <li class='boldNav'><a href='./index.html'>CV</a></li>
                 <li><a href='mailto:jaimesunwoo@gmail.com'>Contact</a></li>
             </ul>
         </div>
-        <div class='bodyContent'>
+        <div class='bodyContent cvBodyContent'>
             <h2>Jaime Sunwoo</h2>
             <p>jaimesunwoo@gmail.com | <a href='../index.html'>www.jaimesunwoo.com</a></p>
             <br>
