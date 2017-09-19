@@ -189,6 +189,11 @@ a:hover {
 }
 
 @media screen and (max-device-width: 800px) {
+
+    body {
+        -moz-text-size-adjust: 50%;
+    }
+
     .w3-button {
         margin-top: 10px;
         padding-left: 80px;
