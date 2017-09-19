@@ -287,3 +287,9 @@ a:hover {
     .caption { font-size: 12px; }
 }
 
+@media screen and (max-device-width: 800px) and (orientation:landscape) {
+    .metaNav {
+        position: absolute; 
+        top: 0px;
+    }
+}

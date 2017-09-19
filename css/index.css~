@@ -5,10 +5,7 @@
 body {
     margin-left: 0;
     margin-top: 0;
-    -webkit-text-size-adjust: 100%;
-    -moz-text-size-adjust: 100%;
     margin-right: 0;
-    -moz-text-size-adjust: 50%;
 }
 
 ul {
@@ -290,3 +287,9 @@ a:hover {
     .caption { font-size: 12px; }
 }
 
+@media screen and (max-device-width: 800px) and (orientation:landscape) {
+    .metaNav {
+        position: absolute; 
+        top: 0px;
+    }
+}
