@@ -320,5 +320,11 @@ a:hover {
         top: -15px;
     }
 
+    .center-cropped img {
+        width: 200%;
+        margin-top: -80px;
+        overflow: hidden;
+    }
+
     .cvYear { font-size: 20px; }
 }
