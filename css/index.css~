@@ -128,7 +128,7 @@ a:hover {
 
 .anchor {
     position: relative;
-    top: -69px;
+    top: -87px;
 }
 
 .cvYear {
