@@ -9,11 +9,11 @@
 <body>
     <div class='metaNav'>
         <ul class='nav'>
-            <a href='../index.html'><li>Jaime Sunwoo</li></a>
-            <a href='../performance/index.html'><li>Performance</li></a>
+            <a class='cb1' href='../index.html'><li>Jaime Sunwoo</li></a>
+            <a class='cb1' href='../performance/index.html'><li>Performance</li></a>
             <!-- <li><a href='../visual-art/index.html'>Visual Art</a></li> i-->
-            <a href='./index.html'><li class='boldNav'>CV</li></a>
-            <a href='mailto:jaimesunwoo@gmail.com'><li>Contact</li></a>
+            <a class='cb1' href='./index.html'><li class='boldNav'>CV</li></a>
+            <a class='cb1' href='mailto:jaimesunwoo@gmail.com'><li>Contact</li></a>
         </ul>
     </div>
     <div class='bodyContent cvBodyContent'>
