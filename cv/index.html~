@@ -1,5 +1,8 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
+        <meta charset='utf-8'>
+        <meta name='viewport' content='width=device-width,initial-scale=1' />
         <title>CV - Jaime Sunwoo</title>
         <link rel='stylesheet' href='../css/index.css'>
     </head>
@@ -15,7 +18,7 @@
         </div>
         <div class='bodyContent cvBodyContent'>
             <h2>Jaime Sunwoo</h2>
-            <p>jaimesunwoo@gmail.com | <a href='../index.html'>www.jaimesunwoo.com</a></p>
+            <p>Contact : <a href='mailto:jaimesunwoo.com'>jaimesunwoo@gmail.com</a></p>
             <br>
             <h3>EDUCATION</h3>
             <span class='cvYear'>2014</span><div class='cvDesc'><span>BA, Art, Yale University School of Art, New Haven, CT</span><br></div>

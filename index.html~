@@ -1,19 +1,22 @@
-<html>
-    <head>
-        <title>Jaime Sunwoo</title>
-        <link rel='stylesheet' href='css/index.css'>
-    </head>
-    <body>
-        <div class='center-cropped'>
-            <img src='./images/performance/rot/creature-about.jpg'></img>
-        </div>
-        <div class='metaNav'>
-            <ul class='nav'>
-                <li class='boldNav'><a href='./index.html'</a>Jaime Sunwoo</a></li>
-                <li><a href='performance/index.html'>Performance</a></li>
-                <li><a href='cv/index.html'>CV</a></li>
-                <li><a href='mailto:jaimesunwoo@gmail.com'>Contact</a></li>
-            </ul>
-        </div>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width,initial-scale=1' />
+    <title>Jaime Sunwoo</title>
+    <link rel='stylesheet' href='css/index.css'>
+</head>
+<body style='background-color:#222222;'>
+    <div class='center-cropped'>
+        <img src='./images/performance/rot/creature-about.jpg'></img>
+    </div>
+    <div class='metaNav'>
+        <ul class='nav'>
+            <a class='cb1' href='./index.html'><li class='boldNav'>Jaime Sunwoo</li></a>
+            <a class='cb2' href='performance/index.html'><li>Performance</li></a>
+            <a class='cb3' href='cv/index.html'><li>CV</li></a>
+            <a class='cb4' href='mailto:jaimesunwoo@gmail.com'><li>Contact</li></a>
+        </ul>
+    </div>
+</body>
 </html>
