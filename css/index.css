@@ -109,12 +109,31 @@ a:hover {
 
 }
 
+table {
+    width: 80%;
+    font-size: 20px;
+    color: #111111;
+}
+
+th, td {
+    border: 3px solid #E5E5E5;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    width: 50%;
+}
+
 .db1 { background-color: #FF3100; }
 .db2 { background-color: #FFA700; }
 .db3 { background-color: #00BF32; }
 .db4 { background-color: #0D56A6; }
 .db5 { background-color: #444444; }
 
+.bodyLink {
+    background-color: #EDEDED;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-weight: bold;
+}
 .sectTitle {
     font-size: 28px;
     color: white;
@@ -222,6 +241,10 @@ a:hover {
 
     body {
         -moz-text-size-adjust: 50%;
+    }
+
+    table {
+        width: 100%;
     }
 
     .w3-button {

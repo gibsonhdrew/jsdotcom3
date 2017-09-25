@@ -14,217 +14,351 @@
         <div class='slideshow'>
             <div class='mySlides0'>
                 <img class='slideImg' src="../images/performance/earshot/2.Earshot.jpg">
-                <p class='caption'>Caption goes here 1</p>
+                <p class='caption'>Strangers sit across from each other, listening to the characters through localized electronic speakers (Earshot, 2015, Bonnie Vee Bar, New York, NY). [1/8]</p>
             </div>
             <div class='mySlides0'>
                 <img class='slideImg' src="../images/performance/earshot/1.Earshot.jpg">
-                <p class='caption'>Caption goes here 2</p>
+                <p class='caption'>Listeners explore characters' props placed by their seats (Earshot, 2015, Kilo Bravo Bar, Brooklyn, NY). [2/8]</p>
             </div>
             <div class='mySlides0'>
                 <img class='slideImg' src="../images/performance/earshot/3.Earshot.jpg">
-                <p class='caption'>Caption goes here 3</p>
+                <p class='caption'>[3/8]</p>
             </div>
             <div class='mySlides0'>
                 <img class='slideImg' src="../images/performance/earshot/4.Earshot.jpg">
-                <p class='caption'>Caption goes here 4</p>
+                <p class='caption'>[4/8]</p>
             </div>
             <div class='mySlides0'>
                 <img class='slideImg' src="../images/performance/earshot/5.Earshot.jpg">
-                <p class='caption'>Caption goes here 5</p>
+                <p class='caption'>[5/8]</p>
             </div>
             <div class='mySlides0'>
                 <img class='slideImg' src="../images/performance/earshot/6.Earshot.jpg">
-                <p class='caption'>Caption goes here 6</p>
+                <p class='caption'>[6/8]</p>
             </div>
             <div class='mySlides0'>
                 <img class='slideImg' src="../images/performance/earshot/7.Earshot.jpg">
-                <p class='caption'>Caption goes here 7</p>
+                <p class='caption'>[7/8]</p>
             </div>
             <div class='mySlides0'>
                 <img class='slideImg' src="../images/performance/earshot/8.Earshot.png">
-                <p class='caption'>Caption goes here 8</p>
+                <p class='caption'>[8/8]</p>
             </div>
         </div>
         <div style='text-align:center;font-size:36px;'>
             <button class="w3-button w3-display-left" onclick="plusDivs0(-1)">&#10094;</button>
             <button class="w3-button w3-display-right" onclick="plusDivs0(+1)">&#10095;</button>
         </div>
-        <p class='bodyText'>Even as Irma was downgraded from a hurricane to a tropical storm, millions remained without power, while the police and the National Guard carried out search-and-rescue operations across the state. Many areas faced fuel shortages, as well as downed power lines and standing water. Fallen trees, ripped from their roots by surging waters and whipping winds that reached 130 miles per hour, blocked roadways — further hampering the recovery.</p>
+        <p class='bodyText'>Earshot is an interactive sound installation set in a bar. Earshot simulates bar crowd conversations through different audio narratives simultaneously playing at each table. As listeners stroll through the bar, they eavesdrop on moments in which old friends reconnect, drunks philosophize, lovers plot affairs and relationships fall apart. Once seated, listeners can examine characters&#39; purses, wallets, and jackets to get a voyeuristic glimpse into their lives.  Earshot is a paean to the diversity, and frequent absurdity, of the lives and stories around us every day.
+        <p class='bodyText'>See full credits and explore a show simulation at <a href='www.earshotplay.com' class='bodyLink'>earshotplay.com</a>.</p>
+        <p class='bodyText'>Press: <a href='https://www.culturebot.org/2015/04/23797/jaime-sunwoos-earshot-a-theatrical-sound-installation-at-bonnie-vee-and-kilo-bravo/' class='bodyLink'>Culturebot</a></p>
         <br>
         <div id='household' class='anchor'></div>
         <h2 class='db2 sectTitle'>Household</h2>
         <div class='slideshow'>
             <div class='mySlides1'>
                 <img class='slideImg' src="../images/performance/household/1.Household.JPG">
-                <p class='caption'>Caption goes here 1</p>
+                <p class='caption'>[1/9]</p>
             </div>
             <div class='mySlides1'>
                 <img class='slideImg' src="../images/performance/household/2.Household.JPG">
-                <p class='caption'>Caption goes here 2</p>
+                <p class='caption'>[2/9]</p>
             </div>
             <div class='mySlides1'>
                 <img class='slideImg' src="../images/performance/household/3.Household.JPG">
-                <p class='caption'>Caption goes here 3</p>
+                <p class='caption'>[3/9]</p>
             </div>
             <div class='mySlides1'>
                 <img class='slideImg' src="../images/performance/household/4.Household.JPG">
-                <p class='caption'>Caption goes here 4</p>
+                <p class='caption'>[4/9]</p>
             </div>
             <div class='mySlides1'>
                 <img class='slideImg' src="../images/performance/household/5.Household.JPG">
-                <p class='caption'>Caption goes here 5</p>
+                <p class='caption'>[5/9]</p>
             </div>
             <div class='mySlides1'>
                 <img class='slideImg' src="../images/performance/household/6.Household.JPG">
-                <p class='caption'>Caption goes here 6</p>
+                <p class='caption'>[6/9]</p>
             </div>
             <div class='mySlides1'>
                 <img class='slideImg' src="../images/performance/household/7.Household.JPG">
-                <p class='caption'>Caption goes here 7</p>
+                <p class='caption'>[7/9]</p>
             </div>
             <div class='mySlides1'>
                 <img class='slideImg' src="../images/performance/household/8.Household.JPG">
-                <p class='caption'>Caption goes here 8</p>
+                <p class='caption'>[8/9]</p>
             </div>
             <div class='mySlides1'>
                 <img class='slideImg' src="../images/performance/household/9.Household.JPG">
-                <p class='caption'>Caption goes here 9</p>
+                <p class='caption'>[9/9]</p>
             </div>
         </div>
         <div style='text-align:center;font-size:36px;'>
             <button class="w3-button w3-display-left" onclick="plusDivs1(-1)">&#10094;</button>
             <button class="w3-button w3-display-right" onclick="plusDivs1(+1)">&#10095;</button>
         </div>
-        <p class='bodyText'>Even as Irma was downgraded from a hurricane to a tropical storm, millions remained without power, while the police and the National Guard carried out search-and-rescue operations across the state. Many areas faced fuel shortages, as well as downed power lines and standing water. Fallen trees, ripped from their roots by surging waters and whipping winds that reached 130 miles per hour, blocked roadways — further hampering the recovery.</p>
+        <p class='bodyText'>Household tells the story of a dysfunctional family of household objects– Blender, Vacuum, Lamp, Curtain, Mirror. Anthropomorphized, their individual personalities are determined by their functions. Otherwise mute, musical instruments speak for our characters with the blaring sounds of modern life. Houseplants, in marked contrast to their mechanical housemates, sing gracefully and comment on the action. The play begins with domestic tranquility, but as the characters vie for dominance of the stage, exercising their utility in incompatible ways, unforeseen repercussions threaten the harmony of the household.
+        <p class='bodyText'>Press: <a href='http://yaledailynews.com/blog/2014/02/26/play-to-focus-on-improvised-music/' class='bodyLink''>Yale Daily News, 02.26.14</a>, <a href='http://yaledailynews.com/blog/2014/02/28/before-the-curtain-rises/' class='bodyLink'>Yale Daily News, 02.28.14</a></p>
+        <p class='bodyText'>Cast:</p>
+        <table>
+            <tr>
+                <th>Lamp</th>
+                <th>Ava Ghezelaya</th>
+            </tr>
+            <tr>
+                <th>Curtain</th>
+                <th>Natalie Rose Schwartz</th>
+            </tr>
+            <tr>
+                <th>Vacuum</th>
+                <th>Andrew Williams</th>
+            </tr>
+            <tr>
+                <th>Blender</th>
+                <th>Alcindor Leadon</th>
+            </tr>
+            <tr>
+                <th>Mirror</th>
+                <th>Max Andersen</th>
+            </tr>
+            <tr>
+                <th>Plant 1</th>
+                <th>Sylvia Raye Leith</th>
+            </tr>
+            <tr>
+                <th>Plant 2</th>
+                <th>Shivani Bhatt</th>
+            </tr>
+            <tr>
+                <th>Plant 3</th>
+                <th>Mary Kleshefsky</th>
+            </tr>
+        </table>
+        <p class='bodyText'>Production Staff:</p>
+        <table>
+            <tr>
+                <th>Director</th>
+                <th>Jaime Sunwoo</th>
+            </tr>
+            <tr>
+                <th>Producer</th>
+                <th>Jaime Sunwoo</th>
+            </tr>
+            <tr>
+                <th>Writer</th>
+                <th>Jaime Sunwoo</th>
+            </tr>
+            <tr>
+                <th>Writer</th>
+                <th>Austin Jung</th>
+            </tr>
+            <tr>
+                <th>Dramaturg</th>
+                <th>Austin Jung</th>
+            </tr>
+            <tr>
+                <th>Stage Manager</th>
+                <th>Marc DeWitt</th>
+            </tr>
+            <tr>
+                <th>Technical Director</th>
+                <th>Kellee Richards</th>
+            </tr>
+            <tr>
+                <th>Costume Designer</th>
+                <th>Lara Zipperer</th>
+            </tr>
+            <tr>
+                <th>Props Designer</th>
+                <th>Madeline Butler</th>
+            </tr>
+            <tr>
+                <th>Master Electrician</th>
+                <th>Stuart Teal</th>
+            </tr>
+            <tr>
+                <th>Lighting Designer</th>
+                <th>Nikki Teran</th>
+            </tr>
+            <tr>
+                <th>Lights Crew</th>
+                <th>Jae Shin</th>
+            </tr>
+            <tr>
+                <th>Sound Engineer</th>
+                <th>Timothy Follo</th>
+            </tr>
+            <tr>
+                <th>Assistant Sound Engineer</th>
+                <th>Tara Abraham</th>
+            </tr>
+            <tr>
+                <th>Musical Director</th>
+                <th>Gabriel Acheson</th>
+            </tr>
+            <tr>
+                <th>Music Composer</th>
+                <th>Gideon Broshy</th>
+            </tr>
+            <tr>
+                <th>Musician</th>
+                <th>Madison Masters</th>
+            </tr>
+            <tr>
+                <th>Musician</th>
+                <th>Joshua Celli</th>
+            </tr>
+            <tr>
+                <th>Musician</th>
+                <th>Matthew Chilton</th>
+            </tr>
+            <tr>
+                <th>Musician</th>
+                <th>Xinyuan Chen</th>
+            </tr>
+            <tr>
+                <th>Assistant Director</th>
+                <th>Zachary Bell</th>
+            </tr>
+            <tr>
+                <th>Assistant Producer</th>
+                <th>Andrew Wagner</th>
+            </tr>
+            <tr>
+                <th>Assistant Stage Manager</th>
+                <th>Kendra Dawsey</th>
+            </tr>
+        </table>
         <br>
         <div id='rot' class='anchor'></div>
         <h2 class='db3 sectTitle'>Rot</h2>
         <div class='slideshow'>
             <div class='mySlides2'>
                 <img class='slideImg' src="../images/performance/rot/resized/1.Rot.jpg">
-                <p class='caption'>Caption goes here 1</p>
+                <p class='caption'>[1/10]</p>
             </div>
             <div class='mySlides2'>
                 <img class='slideImg' src="../images/performance/rot/resized/2.Rot.jpg">
-                <p class='caption'>Caption goes here 2</p>
+                <p class='caption'>[2/10]</p>
             </div>
             <div class='mySlides2'>
                 <img class='slideImg' src="../images/performance/rot/resized/3.Rot.jpg">
-                <p class='caption'>Caption goes here 3</p>
+                <p class='caption'>[3/10]</p>
             </div>
             <div class='mySlides2'>
                 <img class='slideImg' src="../images/performance/rot/resized/4.Rot.jpg">
-                <p class='caption'>Caption goes here 4</p>
+                <p class='caption'>[4/10]</p>
             </div>
             <div class='mySlides2'>
                 <img class='slideImg' src="../images/performance/rot/resized/5.Rot.jpg">
-                <p class='caption'>Caption goes here 5</p>
+                <p class='caption'>[5/10]</p>
             </div>
             <div class='mySlides2'>
                 <img class='slideImg' src="../images/performance/rot/resized/6.Rot.jpg">
-                <p class='caption'>Caption goes here 6</p>
+                <p class='caption'>[6/10]</p>
             </div>
             <div class='mySlides2'>
                 <img class='slideImg' src="../images/performance/rot/resized/7.Rot.jpg">
-                <p class='caption'>Caption goes here 7</p>
+                <p class='caption'>[7/10]</p>
             </div>
             <div class='mySlides2'>
                 <img class='slideImg' src="../images/performance/rot/resized/8.Rot.jpg">
-                <p class='caption'>Caption goes here 8</p>
+                <p class='caption'>[8/10]</p>
             </div>
             <div class='mySlides2'>
                 <img class='slideImg' src="../images/performance/rot/resized/9.Rot.jpg">
-                <p class='caption'>Caption goes here 9</p>
+                <p class='caption'>[9/10]</p>
             </div>
             <div class='mySlides2'>
                 <img class='slideImg' src="../images/performance/rot/resized/10.Rot.jpg">
-                <p class='caption'>Caption goes here 10</p>
+                <p class='caption'>[10/10]</p>
             </div>
         </div>
         <div style='text-align:center;font-size:36px;'>
             <button class="w3-button w3-display-left" onclick="plusDivs2(-1)">&#10094;</button>
             <button class="w3-button w3-display-right" onclick="plusDivs2(+1)">&#10095;</button>
         </div>
-        <p class='bodyText'>Even as Irma was downgraded from a hurricane to a tropical storm, millions remained without power, while the police and the National Guard carried out search-and-rescue operations across the state. Many areas faced fuel shortages, as well as downed power lines and standing water. Fallen trees, ripped from their roots by surging waters and whipping winds that reached 130 miles per hour, blocked roadways — further hampering the recovery.</p>
+        <p class='bodyText'>A researcher at a biochemistry lab becomes infected with an unknown fungal disease, transforming into The Creature, a restless, impulsive, mischievous urchin. The Creature leaves the comfort of its rainbow fungal abode to spread its colorful spores onto the sterile spaces we all inhabit.</p>
+        <p class='bodyText'>Documentation by Zach Bell and Andrew Wagner.</p>
         <br>
         <div id='creature' class='anchor'></div>
         <h2 class='db4 sectTitle'>The Creature</h2>
         <div class='slideshow'>
             <div class='mySlides3'>
                 <img class='slideImg' src="../images/performance/the_creature/1.Creature.jpg">
-                <p class='caption'>Caption goes here 1</p>
+                <p class='caption'>[1/19]</p>
             </div>
             <div class='mySlides3'>
                 <img class='slideImg' src="../images/performance/the_creature/2.Creature.jpg">
-                <p class='caption'>Caption goes here 2</p>
+                <p class='caption'>[2/19]</p>
             </div>
             <div class='mySlides3'>
                 <img class='slideImg' src="../images/performance/the_creature/3.Creature.jpg">
-                <p class='caption'>Caption goes here 3</p>
+                <p class='caption'>[3/19]</p>
             </div>
             <div class='mySlides3'>
                 <img class='slideImg' src="../images/performance/the_creature/4.Creature.jpg">
-                <p class='caption'>Caption goes here 4</p>
+                <p class='caption'>[4/19]</p>
             </div>
             <div class='mySlides3'>
                 <img class='slideImg' src="../images/performance/the_creature/5.Creature.jpg">
-                <p class='caption'>Caption goes here 5</p>
+                <p class='caption'>[5/19]</p>
             </div>
             <div class='mySlides3'>
                 <img class='slideImg' src="../images/performance/the_creature/6.Creature.jpg">
-                <p class='caption'>Caption goes here 6</p>
+                <p class='caption'>[6/19]</p>
             </div>
             <div class='mySlides3'>
                 <img class='slideImg' src="../images/performance/the_creature/7.Creature.jpg">
-                <p class='caption'>Caption goes here 7</p>
+                <p class='caption'>[7/19]</p>
             </div>
             <div class='mySlides3'>
                 <img class='slideImg' src="../images/performance/the_creature/8.Creature.jpg">
-                <p class='caption'>Caption goes here 8</p>
+                <p class='caption'>[8/19]</p>
             </div>
             <div class='mySlides3'>
                 <img class='slideImg' src="../images/performance/the_creature/9.Creature.jpg">
-                <p class='caption'>Caption goes here 9</p>
+                <p class='caption'>[9/19]</p>
             </div>
             <div class='mySlides3'>
                 <img class='slideImg' src="../images/performance/the_creature/10.Creature.jpg">
-                <p class='caption'>Caption goes here 10</p>
+                <p class='caption'>[10/19]</p>
             </div>
             <div class='mySlides3'>
                 <img class='slideImg' src="../images/performance/the_creature/11.Creature.jpg">
-                <p class='caption'>Caption goes here 11</p>
+                <p class='caption'>[11/19]</p>
             </div>
             <div class='mySlides3'>
                 <img class='slideImg' src="../images/performance/the_creature/12.Creature.jpg">
-                <p class='caption'>Caption goes here 12</p>
+                <p class='caption'>[12/19]</p>
             </div>
             <div class='mySlides3'>
                 <img class='slideImg' src="../images/performance/the_creature/13.Creature.jpg">
-                <p class='caption'>Caption goes here 13</p>
+                <p class='caption'>[13/19]</p>
             </div>
             <div class='mySlides3'>
                 <img class='slideImg' src="../images/performance/the_creature/14.Creature.jpg">
-                <p class='caption'>Caption goes here 14</p>
+                <p class='caption'>[14/19]</p>
             </div>
             <div class='mySlides3'>
                 <img class='slideImg' src="../images/performance/the_creature/15.Creature.jpg">
-                <p class='caption'>Caption goes here 15</p>
+                <p class='caption'>[15/19]</p>
             </div>
             <div class='mySlides3'>
                 <img class='slideImg' src="../images/performance/the_creature/16.Creature.jpg">
-                <p class='caption'>Caption goes here 16</p>
+                <p class='caption'>[16/19]</p>
             </div>
             <div class='mySlides3'>
                 <img class='slideImg' src="../images/performance/the_creature/17.Creature.jpg">
-                <p class='caption'>Caption goes here 17</p>
+                <p class='caption'>[17/19]</p>
             </div>
             <div class='mySlides3'>
                 <img class='slideImg' src="../images/performance/the_creature/18.Creature.jpg">
-                <p class='caption'>Caption goes here 18</p>
+                <p class='caption'>[18/19]</p>
             </div>
             <div class='mySlides3'>
                 <img class='slideImg' src="../images/performance/the_creature/19.Creature.jpg">
-                <p class='caption'>Caption goes here 19</p>
+                <p class='caption'>[19/19]</p>
             </div>
         </div>
 
@@ -232,7 +366,10 @@
             <button class="w3-button w3-display-left" onclick="plusDivs3(-1)">&#10094;</button>
             <button class="w3-button w3-display-right" onclick="plusDivs3(+1)">&#10095;</button>
         </div>
-        <p class='bodyText'>Even as Irma was downgraded from a hurricane to a tropical storm, millions remained without power, while the police and the National Guard carried out search-and-rescue operations across the state. Many areas faced fuel shortages, as well as downed power lines and standing water. Fallen trees, ripped from their roots by surging waters and whipping winds that reached 130 miles per hour, blocked roadways — further hampering the recovery.</p>
+        <p class='bodyText'>An incompetent team of medical professionals tries to capture a person severely infected with an unknown fungal disease but ultimately fails due to bureaucratic setbacks. Doctors monitor the Creature’s whereabouts at Grand Central, Times Square, and Brooklyn Bridge Park, handing out public service announcement flyers to warn passersby of the fungal disease. They lure the Creature into a medical clinic, where it is quarantined. The staff interrogates the public to see if they’ve been in contact with the Creature, and deems the disease non-hazardous after administering a questionable treatment. Footage and photos from Rot (2014) were on display at the medical clinic as part of the PSA. The performance was held during the Ebola outbreak, playing on American media scare tactics and toying with public paranoia.</p>
+        <p class='bodyText'>Collaborators: Shon Arieh-Lerer, Jessica Park, Evan Brandon.</p>
+        <p class='bodyText'>Documentation by Drew Gibson and Taj Birkett.</p>
+        <p class='bodyText'>The performance and installation was hosted by Leaf Medical, a DUMBO-based medical clinic.</p>
     </div>
     <div class='metaNav'>
         <ul class='nav'>
@@ -249,6 +386,8 @@
         </ul>
     </div>
     <script>
+        // refactor this
+
         var slideIndex = [];
 
         for (i = 0; i < 4; i++) {
