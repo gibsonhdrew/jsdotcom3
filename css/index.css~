@@ -119,6 +119,7 @@ th, td {
     border: 3px solid #E5E5E5;
     padding-top: 6px;
     padding-bottom: 6px;
+    width: 50%;
 }
 
 .db1 { background-color: #FF3100; }
