@@ -5,6 +5,7 @@
     <meta name='viewport' content='width=device-width,initial-scale=1' />
     <title>Performance - Jaime Sunwoo</title>
     <link rel='stylesheet' href='../css/index.css'>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
 </head>
 <body>
     <div class='bodyContent'>
@@ -99,136 +100,140 @@
         </div>
         <p class='bodyText'>Household tells the story of a dysfunctional family of household objects– Blender, Vacuum, Lamp, Curtain, Mirror. Anthropomorphized, their individual personalities are determined by their functions. Otherwise mute, musical instruments speak for our characters with the blaring sounds of modern life. Houseplants, in marked contrast to their mechanical housemates, sing gracefully and comment on the action. The play begins with domestic tranquility, but as the characters vie for dominance of the stage, exercising their utility in incompatible ways, unforeseen repercussions threaten the harmony of the household.
         <p class='bodyText'>Press: <a href='http://yaledailynews.com/blog/2014/02/26/play-to-focus-on-improvised-music/' class='bodyLink''>Yale Daily News, 02.26.14</a>, <a href='http://yaledailynews.com/blog/2014/02/28/before-the-curtain-rises/' class='bodyLink'>Yale Daily News, 02.28.14</a></p>
-        <p class='bodyText'>Cast:</p>
-        <table>
-            <tr>
-                <th>Lamp</th>
-                <th>Ava Ghezelaya</th>
-            </tr>
-            <tr>
-                <th>Curtain</th>
-                <th>Natalie Rose Schwartz</th>
-            </tr>
-            <tr>
-                <th>Vacuum</th>
-                <th>Andrew Williams</th>
-            </tr>
-            <tr>
-                <th>Blender</th>
-                <th>Alcindor Leadon</th>
-            </tr>
-            <tr>
-                <th>Mirror</th>
-                <th>Max Andersen</th>
-            </tr>
-            <tr>
-                <th>Plant 1</th>
-                <th>Sylvia Raye Leith</th>
-            </tr>
-            <tr>
-                <th>Plant 2</th>
-                <th>Shivani Bhatt</th>
-            </tr>
-            <tr>
-                <th>Plant 3</th>
-                <th>Mary Kleshefsky</th>
-            </tr>
-        </table>
-        <p class='bodyText'>Production Staff:</p>
-        <table>
-            <tr>
-                <th>Director</th>
-                <th>Jaime Sunwoo</th>
-            </tr>
-            <tr>
-                <th>Producer</th>
-                <th>Jaime Sunwoo</th>
-            </tr>
-            <tr>
-                <th>Writer</th>
-                <th>Jaime Sunwoo</th>
-            </tr>
-            <tr>
-                <th>Writer</th>
-                <th>Austin Jung</th>
-            </tr>
-            <tr>
-                <th>Dramaturg</th>
-                <th>Austin Jung</th>
-            </tr>
-            <tr>
-                <th>Stage Manager</th>
-                <th>Marc DeWitt</th>
-            </tr>
-            <tr>
-                <th>Technical Director</th>
-                <th>Kellee Richards</th>
-            </tr>
-            <tr>
-                <th>Costume Designer</th>
-                <th>Lara Zipperer</th>
-            </tr>
-            <tr>
-                <th>Props Designer</th>
-                <th>Madeline Butler</th>
-            </tr>
-            <tr>
-                <th>Master Electrician</th>
-                <th>Stuart Teal</th>
-            </tr>
-            <tr>
-                <th>Lighting Designer</th>
-                <th>Nikki Teran</th>
-            </tr>
-            <tr>
-                <th>Lights Crew</th>
-                <th>Jae Shin</th>
-            </tr>
-            <tr>
-                <th>Sound Engineer</th>
-                <th>Timothy Follo</th>
-            </tr>
-            <tr>
-                <th>Assistant Sound Engineer</th>
-                <th>Tara Abraham</th>
-            </tr>
-            <tr>
-                <th>Musical Director</th>
-                <th>Gabriel Acheson</th>
-            </tr>
-            <tr>
-                <th>Music Composer</th>
-                <th>Gideon Broshy</th>
-            </tr>
-            <tr>
-                <th>Musician</th>
-                <th>Madison Masters</th>
-            </tr>
-            <tr>
-                <th>Musician</th>
-                <th>Joshua Celli</th>
-            </tr>
-            <tr>
-                <th>Musician</th>
-                <th>Matthew Chilton</th>
-            </tr>
-            <tr>
-                <th>Musician</th>
-                <th>Xinyuan Chen</th>
-            </tr>
-            <tr>
-                <th>Assistant Director</th>
-                <th>Zachary Bell</th>
-            </tr>
-            <tr>
-                <th>Assistant Producer</th>
-                <th>Andrew Wagner</th>
-            </tr>
-            <tr>
-                <th>Assistant Stage Manager</th>
-                <th>Kendra Dawsey</th>
-            </tr>
-        </table>
+        <p class='bodyText slideTarget1'>Full Cast: <span class='slideExpand1'>&#40;<span class='slideExpand1Inner'>expand</span>&#41;</span></p>
+        <div class='slideTable1' hidden>
+            <table>
+                <tr>
+                    <th>Lamp</th>
+                    <th>Ava Ghezelaya</th>
+                </tr>
+                <tr>
+                    <th>Curtain</th>
+                    <th>Natalie Rose Schwartz</th>
+                </tr>
+                <tr>
+                    <th>Vacuum</th>
+                    <th>Andrew Williams</th>
+                </tr>
+                <tr>
+                    <th>Blender</th>
+                    <th>Alcindor Leadon</th>
+                </tr>
+                <tr>
+                    <th>Mirror</th>
+                    <th>Max Andersen</th>
+                </tr>
+                <tr>
+                    <th>Plant 1</th>
+                    <th>Sylvia Raye Leith</th>
+                </tr>
+                <tr>
+                    <th>Plant 2</th>
+                    <th>Shivani Bhatt</th>
+                </tr>
+                <tr>
+                    <th>Plant 3</th>
+                    <th>Mary Kleshefsky</th>
+                </tr>
+            </table>
+        </div>
+        <p class='bodyText slideTarget2'>Production Staff: <span class='slideExpand2'>&#40;<span class='slideExpand2Inner'>expand</span>&#41;</span></p>
+        <div class='slideTable2' hidden>
+            <table>
+                <tr>
+                    <th>Director</th>
+                    <th>Jaime Sunwoo</th>
+                </tr>
+                <tr>
+                    <th>Producer</th>
+                    <th>Jaime Sunwoo</th>
+                </tr>
+                <tr>
+                    <th>Writer</th>
+                    <th>Jaime Sunwoo</th>
+                </tr>
+                <tr>
+                    <th>Writer</th>
+                    <th>Austin Jung</th>
+                </tr>
+                <tr>
+                    <th>Dramaturg</th>
+                    <th>Austin Jung</th>
+                </tr>
+                <tr>
+                    <th>Stage Manager</th>
+                    <th>Marc DeWitt</th>
+                </tr>
+                <tr>
+                    <th>Technical Director</th>
+                    <th>Kellee Richards</th>
+                </tr>
+                <tr>
+                    <th>Costume Designer</th>
+                    <th>Lara Zipperer</th>
+                </tr>
+                <tr>
+                    <th>Props Designer</th>
+                    <th>Madeline Butler</th>
+                </tr>
+                <tr>
+                    <th>Master Electrician</th>
+                    <th>Stuart Teal</th>
+                </tr>
+                <tr>
+                    <th>Lighting Designer</th>
+                    <th>Nikki Teran</th>
+                </tr>
+                <tr>
+                    <th>Lights Crew</th>
+                    <th>Jae Shin</th>
+                </tr>
+                <tr>
+                    <th>Sound Engineer</th>
+                    <th>Timothy Follo</th>
+                </tr>
+                <tr>
+                    <th>Assistant Sound Engineer</th>
+                    <th>Tara Abraham</th>
+                </tr>
+                <tr>
+                    <th>Musical Director</th>
+                    <th>Gabriel Acheson</th>
+                </tr>
+                <tr>
+                    <th>Music Composer</th>
+                    <th>Gideon Broshy</th>
+                </tr>
+                <tr>
+                    <th>Musician</th>
+                    <th>Madison Masters</th>
+                </tr>
+                <tr>
+                    <th>Musician</th>
+                    <th>Joshua Celli</th>
+                </tr>
+                <tr>
+                    <th>Musician</th>
+                    <th>Matthew Chilton</th>
+                </tr>
+                <tr>
+                    <th>Musician</th>
+                    <th>Xinyuan Chen</th>
+                </tr>
+                <tr>
+                    <th>Assistant Director</th>
+                    <th>Zachary Bell</th>
+                </tr>
+                <tr>
+                    <th>Assistant Producer</th>
+                    <th>Andrew Wagner</th>
+                </tr>
+                <tr>
+                    <th>Assistant Stage Manager</th>
+                    <th>Kendra Dawsey</th>
+                </tr>
+            </table>
+        </div>
         <br>
         <div id='rot' class='anchor'></div>
         <h2 class='db3 sectTitle'>Rot</h2>
@@ -386,6 +391,33 @@
         </ul>
     </div>
     <script>
+        var slide1=false;
+        var slide2=false;
+
+        $('.slideTarget1').click(function() {
+            if (slide1==false){
+                $('.slideTable1').slideDown({duration: 400});
+                $('.slideExpand1Inner').text('collapse');
+                slide1=true;
+            } else {
+                $('.slideTable1').slideUp({duration: 400});
+                $('.slideExpand1Inner').text('expand');
+                slide1=false;
+            }
+        })
+
+        $('.slideTarget2').click(function() {
+            if (slide2==false){
+                $('.slideTable2').slideDown({duration: 400});
+                $('.slideExpand2Inner').text('collapse');
+                slide2=true;
+            } else {
+                $('.slideTable2').slideUp({duration: 400});
+                $('.slideExpand2Inner').text('collapse');
+                slide2=false;
+            }
+        })
+
         // refactor this
 
         var slideIndex = [];
