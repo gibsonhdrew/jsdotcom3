@@ -54,7 +54,11 @@
         <p class='bodyText'>Earshot is an interactive sound installation set in a bar. Earshot simulates bar crowd conversations through different audio narratives simultaneously playing at each table. As listeners stroll through the bar, they eavesdrop on moments in which old friends reconnect, drunks philosophize, lovers plot affairs and relationships fall apart. Once seated, listeners can examine characters&#39; purses, wallets, and jackets to get a voyeuristic glimpse into their lives.  Earshot is a paean to the diversity, and frequent absurdity, of the lives and stories around us every day.
         <p class='bodyText'>See full credits and explore a show simulation at <a href='http://earshotplay.com' class='bodyLink'>earshotplay.com</a>.</p>
         <p class='bodyText'>Press: <a href='https://www.culturebot.org/2015/04/23797/jaime-sunwoos-earshot-a-theatrical-sound-installation-at-bonnie-vee-and-kilo-bravo/' class='bodyLink'>Culturebot</a></p>
-        <p class='bodyText'><a href='https://vimeo.com/234075216' class='bodyLink'>Demo Video</a></p>
+        <p class='bodyText slideTarget2'>Demo Video: <span class='slideExpand2'>&#40;<span class='slideExpand2Inner'>expand</span>&#41;</span></p>
+        <div class='slideTable2 frameDiv' hidden>
+            <iframe src="https://player.vimeo.com/video/234075216" frameborder="0" 
+                webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </div>
         <br>
 
         <div id='household' class='anchor'></div>
@@ -102,9 +106,16 @@
             <button class="w3-button w3-display-right" onclick="plusDivs1(+1)">&#10095;</button>
         </div>
         <p class='bodyText'>Household tells the story of a dysfunctional family of household objects– Blender, Vacuum, Lamp, Curtain, Mirror. Anthropomorphized, their individual personalities are determined by their functions. Otherwise mute, musical instruments speak for our characters with the blaring sounds of modern life. Houseplants, in marked contrast to their mechanical housemates, sing gracefully and comment on the action. The play begins with domestic tranquility, but as the characters vie for dominance of the stage, exercising their utility in incompatible ways, unforeseen repercussions threaten the harmony of the household.
-        <p class='bodyText'>Press: <a href='http://yaledailynews.com/blog/2014/02/26/play-to-focus-on-improvised-music/' class='bodyLink''>Yale Daily News, 02.26.14</a>, <a href='http://yaledailynews.com/blog/2014/02/28/before-the-curtain-rises/' class='bodyLink'>Yale Daily News, 02.28.14</a></p>
-        <p class='bodyText'><a href='https://vimeo.com/234605535' class='bodyLink'>Video - Part 1</a></p>
-        <p class='bodyText'><a href='https://vimeo.com/101267269' class='bodyLink'>Video - Part 2</a></p>
+        <p class='bodyText'>Press: <a href='http://yaledailynews.com/blog/2014/02/26/play-to-focus-on-improvised-music/' class='bodyLink'>Yale Daily News, 02.26.14</a>, <a href='http://yaledailynews.com/blog/2014/02/28/before-the-curtain-rises/' class='bodyLink'>Yale Daily News, 02.28.14</a></p>
+        <p class='bodyText slideTarget3'>Full Video: <span class='slideExpand3'>&#40;<span class='slideExpand3Inner'>expand</span>&#41;</span></p>
+        <div class='slideTable3 frameDiv' hidden>
+            <p class='bodyText'>Part 1:</p>
+            <iframe src="https://player.vimeo.com/video/101267269" frameborder="0" 
+                webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            <p class='bodyText'>Part 2:</p>
+            <iframe src="https://player.vimeo.com/video/234605535" frameborder="0" 
+                webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </div>
         <p class='bodyText slideTarget1'>Full Credits: <span class='slideExpand1'>&#40;<span class='slideExpand1Inner'>expand</span>&#41;</span></p>
         <div class='slideTable1' hidden>
             <h3>Cast:</h3>
@@ -194,7 +205,11 @@
         </div>
         <p class='bodyText'>A researcher at a biochemistry lab becomes infected with an unknown fungal disease, transforming into The Creature, a restless, impulsive, mischievous urchin. The Creature leaves the comfort of its rainbow fungal abode to spread its colorful spores onto the sterile spaces we all inhabit.</p>
         <p class='bodyText'>Documentation by Zach Bell and Andrew Wagner.</p>
-        <p class='bodyText'><a href='https://vimeo.com/99744177' class='bodyLink'>Video</a></p>
+        <p class='bodyText slideTarget4'>Full Video: <span class='slideExpand4'>&#40;<span class='slideExpand4Inner'>expand</span>&#41;</span></p>
+        <div class='slideTable4 frameDiv' hidden>
+            <iframe src="https://player.vimeo.com/video/99744177" frameborder="0" 
+                webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </div>
         <br>
 
         <div id='creature' class='anchor'></div>
@@ -285,7 +300,12 @@
         <p class='bodyText'>Collaborators: Shon Arieh-Lerer, Jessica Park, Evan Brandon.</p>
         <p class='bodyText'>Documentation by Drew Gibson and Taj Birkett.</p>
         <p class='bodyText'>The performance and installation was hosted by Leaf Medical, a DUMBO-based medical clinic.</p>
-        <p class='bodyText'><a href='https://vimeo.com/107284970' class='bodyLink'>Biohazard Warning PSA Video</a></p>
+        <p class='bodyText slideTarget5'>Video: <span class='slideExpand5'>&#40;<span class='slideExpand5Inner'>expand</span>&#41;</span></p>
+        <div class='slideTable5 frameDiv' hidden>
+            <iframe src="https://player.vimeo.com/video/107284970" frameborder="0" 
+                webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </div>
+        <br>
     </div>
 
     <div class='metaNav'>
@@ -306,6 +326,9 @@
     <script>
         var slide1=false;
         var slide2=false;
+        var slide3=false;
+        var slide4=false;
+        var slide5=false;
 
         $('.slideTarget1').click(function() {
             if (slide1==false){
@@ -328,6 +351,42 @@
                 $('.slideTable2').slideUp({duration: 400});
                 $('.slideExpand2Inner').text('expand');
                 slide2=false;
+            }
+        })
+
+        $('.slideTarget3').click(function() {
+            if (slide3==false){
+                $('.slideTable3').slideDown({duration: 400});
+                $('.slideExpand3Inner').text('collapse');
+                slide3=true;
+            } else {
+                $('.slideTable3').slideUp({duration: 400});
+                $('.slideExpand3Inner').text('expand');
+                slide3=false;
+            }
+        })
+
+        $('.slideTarget4').click(function() {
+            if (slide4==false){
+                $('.slideTable4').slideDown({duration: 400});
+                $('.slideExpand4Inner').text('collapse');
+                slide4=true;
+            } else {
+                $('.slideTable4').slideUp({duration: 400});
+                $('.slideExpand4Inner').text('expand');
+                slide4=false;
+            }
+        })
+
+        $('.slideTarget5').click(function() {
+            if (slide5==false){
+                $('.slideTable5').slideDown({duration: 400});
+                $('.slideExpand5Inner').text('collapse');
+                slide5=true;
+            } else {
+                $('.slideTable5').slideUp({duration: 400});
+                $('.slideExpand5Inner').text('expand');
+                slide5=false;
             }
         })
 
