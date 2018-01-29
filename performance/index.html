@@ -5,7 +5,8 @@
     <meta name='viewport' content='width=device-width,initial-scale=1' />
     <title>Performance - Jaime Sunwoo</title>
     <link rel='stylesheet' href='../css/index.css'>
-    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script type='text/javascript' src='../js/index.js'></script>
 </head>
 <body>
     <div class='bodyContent'>
@@ -316,16 +317,19 @@
     <div class='metaNav'>
         <ul class='nav'>
             <a class='cb1' href='../index.html'><li>Jaime Sunwoo</li></a>
-            <a class='cb2' href='./index.html'><li class='boldNav'>Performance</li></a>
+            <div class='cb2'><li class='boldNav'>Performance</li></div>
             <a class='cb3' href='../cv/index.html'><li>CV</li></a>
             <a class='cb4' href='mailto:jaimesunwoo@gmail.com'><li>Contact</li></a>
         </ul>
-        <ul class='nav2'>
-            <a class='cb1 db1' href='#earshot'><li>Earshot</li></a>
-            <a class='cb2 db2' href='#household'><li>Household</li></a>
-            <a class='cb3 db3' href='#rot'><li>Rot</li></a>
-            <a class='cb4 db4' href='#creature'><li>The&nbsp;Creature</li></a>
-        </ul>
+        <div id='performanceSlider'>
+					<div class='slideNavs'>
+						<a href='#earshot'><li class='slideNav'>Earshot</li></a>
+						<a href='#household'><li>Household</li></a>
+						<a href='#rot'><li>Rot</li></a>
+						<a href='#creature'><li>The Creature</li></a>
+					</div>
+					<div id='sliderArrow'></div><br/>
+        </div>
     </div>
 
     <script>

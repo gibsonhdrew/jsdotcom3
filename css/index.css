@@ -108,11 +108,34 @@ a:hover {
     font-weight: bold;
 }
 
+#performanceSlider {
+  display: none;
+  width: 25%;
+  margin-left: 25%;
+  text-align: center;
+  list-style-type: none;
+}
+
+.slideNavs {
+  position: relative;
+  line-height: 250%;
+  background-color: #222222;
+  font-size: 22px;
+}
+
+.slideNavs li {
+  border-top: 2px solid #444444;
+}
+
+.slideNavs li:hover {
+  background-color: #444444;
+}
+
 .bodyContent {
     background-color: #F9F9F9;
     padding-left: 35px;
     padding-right: 35px;
-    margin-top: 90px;
+    margin-top: 50px;
     margin-left: 5vw;
     margin-right: 5vw;
     margin-bottom: 40px;
@@ -128,6 +151,10 @@ a:hover {
     width: 43%;
     text-align: center;
 
+}
+
+.cb2:hover {
+  cursor: pointer;
 }
 
 table {
@@ -205,7 +232,7 @@ th, td {
 
 .anchor {
     position: relative;
-    top: -92px;
+    top: -72px;
 }
 
 .cvYear {
@@ -326,6 +353,29 @@ th, td {
         overflow: hidden;
     }
 
+    #performanceSlider {
+      display: none;
+      width: 45%;
+      margin-left: 15%;
+      text-align: center;
+      list-style-type: none;
+    }
+
+    .slideNavs {
+      position: relative;
+      line-height: 300%;
+      background-color: #222222;
+      font-size: 16px;
+    }
+
+    .slideNavs li {
+      border-top: 2px solid #444444;
+    }
+
+    .slideNavs li:hover {
+      background-color: #444444;
+    }
+
     .homeCaption {
       display: block;
       position: absolute;
@@ -350,7 +400,7 @@ th, td {
         background-color: #FFFFFF;
         padding-left: 0px;
         padding-right: 0px;
-        margin-top: 80px;
+        margin-top: 40px;
         margin-left: 4vw;
         margin-right: 4vw;
         margin-bottom: 40px;
@@ -371,7 +421,7 @@ th, td {
     }
     .anchor {
         position: relative;
-        top: -100px;
+        top: -60px;
     }
 
     .cvBodyContent {
@@ -399,8 +449,8 @@ th, td {
     }
 
     .nav li, .nav2 li {
-        font-size: 12px;
-        padding-top: 17px;
+        font-size: 11px;
+        padding-top: 15px;
         padding-bottom: 17px;
         display: inline-block;
         text-align: center;
