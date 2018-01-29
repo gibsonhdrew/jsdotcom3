@@ -1,4 +1,4 @@
-window.onload = function() {
+setTimeout(function() {
   $('.cb2').click(function(event) {
     event.stopPropagation();
     $('#performanceSlider').toggle()
@@ -11,4 +11,4 @@ window.onload = function() {
   $(document).click( function(){
     $('#performanceSlider').hide();
   });
-}
+}, 100)
