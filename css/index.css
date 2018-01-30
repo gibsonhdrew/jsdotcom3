@@ -116,6 +116,15 @@ a:hover {
   list-style-type: none;
 }
 
+#visualartSlider {
+  display: none;
+  width: 25%;
+  margin-left: 50%;
+  text-align: center;
+  list-style-type: none;
+}
+
+
 .slideNavs {
   position: relative;
   line-height: 250%;
@@ -153,7 +162,7 @@ a:hover {
 
 }
 
-.cb2:hover {
+.cb2:hover, .cb3:hover {
   cursor: pointer;
 }
 
@@ -176,7 +185,7 @@ th, td {
 .db4 { background-color: #0D56A6; }
 .db5 { background-color: #444444; }
 
-.slideTarget1, .slideTarget2, .slideTarget3, .slideTarget4, .slideTarget5 {
+.slideTarget1, .slideTarget2, .slideTarget3, .slideTarget4, .slideTarget5, .slideTarget6{
     cursor: pointer;
     padding-left: 4px;
     padding-right: 4px;
@@ -200,7 +209,7 @@ th, td {
     height: 100%;
 }
 
-.slideTable1, .slideTable2, .slideTable3, .slideTable4, .slideTable5 {
+.slideTable1, .slideTable2, .slideTable3, .slideTable4, .slideTable5, .slideTable6 {
     font-size: 23px;
     border: 1px solid transparent;
     line-height: 80%;
@@ -357,6 +366,14 @@ th, td {
       display: none;
       width: 45%;
       margin-left: 15%;
+      text-align: center;
+      list-style-type: none;
+    }
+
+    #visualartSlider {
+      display: none;
+      width: 45%;
+      margin-left: 40%;
       text-align: center;
       list-style-type: none;
     }

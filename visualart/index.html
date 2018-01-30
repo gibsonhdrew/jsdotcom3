@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width,initial-scale=1' />
+    <title>Visual Art - Jaime Sunwoo</title>
+    <link rel='stylesheet' href='../css/index.css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script type='text/javascript' src='../js/index.js'></script>
+</head>
+<body>
+    <div class='bodyContent'>
+        <br>
+
+        <div id='meatmold' class='anchor'></div>
+        <h2 class='db1 sectTitle'>Meatmold</h2>
+        <div class='frameDiv'>
+            <iframe src="https://player.vimeo.com/video/41752461" frameborder="0" 
+                webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </div>
+        <p class='bodyText'>Discover the possibilities with Meatmold&#0153; as seen on TV. Meatmold&#0153; shapes any boring meal into dynamic, exciting creations. Every order comes with our premium Liquimeat&#0153;—Mmm, delicious! Endless fun for the family for only $19.99. It's the kitchen tool you never knew you needed. Animation by Jaime Sunwoo. Voice Acting by Jaime Sunwoo, Dalton Johnson, Daisuke Gatanaga, and Sophia Hua.</p>
+        <br>
+
+        <div id='murica' class='anchor'></div>
+        <h2 class='db2 sectTitle'>&#39;Murica</h2>
+        <div class='frameDiv'>
+            <iframe src="https://player.vimeo.com/video/69589813" frameborder="0" 
+                webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </div>
+        <p class='bodyText'>Silent screensaver animation so you can play pizza faces, fried chicken-legged babies, and six-pack beer abs while you're away from your computer.</p>
+        <br>
+        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+    </div>
+
+    <div class='metaNav'>
+
+        <ul class='nav'>
+            <a class='cb1' href='../index.html'><li>Jaime Sunwoo</li></a>
+            <div class='cb2'><li>Performance</li></div>
+            <div class='cb3'><li class='boldNav'>Visual Art</li></div>
+            <a class='cb4' href='mailto:jaimesunwoo@gmail.com'><li>Contact</li></a>
+        </ul>
+
+        <div id='performanceSlider'>
+					<div class='slideNavs'>
+						<a href='../performance/index.html#earshot'><li class='slideNav'>Earshot</li></a>
+						<a href='../performance/index.html#household'><li>Household</li></a>
+						<a href='../performance/index.html#rot'><li>Rot</li></a>
+						<a href='../performance/index.html#creature'><li>The Creature</li></a>
+						<a href='../performance/index.html#safetynet'><li>Safety Net</li></a>
+					</div>
+					<div id='sliderArrow'></div><br/>
+        </div>
+
+        <div id='visualartSlider'>
+					<div class='slideNavs'>
+						<a href='#meatmold'><li class='slideNav'>Meatmold</li></a>
+						<a href='#murica'><li>&#39;Murica</li></a>
+					</div>
+        </div>
+
+    </div>
+
+    <script>
+        var slide1=false;
+        var slide2=false;
+        var slide3=false;
+        var slide4=false;
+        var slide5=false;
+        var slide6=false;
+
+        $('.slideTarget1').click(function() {
+            if (slide1==false){
+                $('.slideTable1').slideDown({duration: 400});
+                $('.slideExpand1Inner').text('collapse');
+                slide1=true;
+            } else {
+                $('.slideTable1').slideUp({duration: 400});
+                $('.slideExpand1Inner').text('expand');
+                slide1=false;
+            }
+        })
+
+        $('.slideTarget2').click(function() {
+            if (slide2==false){
+                $('.slideTable2').slideDown({duration: 400});
+                $('.slideExpand2Inner').text('collapse');
+                slide2=true;
+            } else {
+                $('.slideTable2').slideUp({duration: 400});
+                $('.slideExpand2Inner').text('expand');
+                slide2=false;
+            }
+        })
+
+        $('.slideTarget3').click(function() {
+            if (slide3==false){
+                $('.slideTable3').slideDown({duration: 400});
+                $('.slideExpand3Inner').text('collapse');
+                slide3=true;
+            } else {
+                $('.slideTable3').slideUp({duration: 400});
+                $('.slideExpand3Inner').text('expand');
+                slide3=false;
+            }
+        })
+
+        $('.slideTarget4').click(function() {
+            if (slide4==false){
+                $('.slideTable4').slideDown({duration: 400});
+                $('.slideExpand4Inner').text('collapse');
+                slide4=true;
+            } else {
+                $('.slideTable4').slideUp({duration: 400});
+                $('.slideExpand4Inner').text('expand');
+                slide4=false;
+            }
+        })
+
+        $('.slideTarget5').click(function() {
+            if (slide5==false){
+                $('.slideTable5').slideDown({duration: 400});
+                $('.slideExpand5Inner').text('collapse');
+                slide5=true;
+            } else {
+                $('.slideTable5').slideUp({duration: 400});
+                $('.slideExpand5Inner').text('expand');
+                slide5=false;
+            }
+        })
+
+        $('.slideTarget6').click(function() {
+            if (slide6==false){
+                $('.slideTable6').slideDown({duration: 400});
+                $('.slideExpand6Inner').text('collapse');
+                slide6=true;
+            } else {
+                $('.slideTable6').slideUp({duration: 400});
+                $('.slideExpand6Inner').text('expand');
+                slide6=false;
+            }
+        })
+
+
+        // refactor this
+
+        var slideIndex = [];
+
+        for (i = 0; i < 4; i++) {
+            slideIndex[i] = 1;
+        }
+
+        showDivs0(slideIndex[0]);
+        showDivs1(slideIndex[1]);
+        showDivs2(slideIndex[2]);
+        showDivs3(slideIndex[3]);
+
+        function plusDivs0(n) {
+            showDivs0(slideIndex[0] += n);
+        }
+
+        function plusDivs1(n) {
+            showDivs1(slideIndex[1] += n);
+        }
+
+        function plusDivs2(n) {
+            showDivs2(slideIndex[2] += n);
+        }
+
+        function plusDivs3(n) {
+            showDivs3(slideIndex[3] += n);
+        }
+
+        function showDivs0(n) {
+            var q;
+            var x = document.getElementsByClassName("mySlides0");
+            if (n > x.length) {slideIndex[0] = 1}
+            if (n < 1) {slideIndex[0] = x.length} ;
+            for (q = 0; q < x.length; q++) {
+                x[q].style.display = "none";
+            }
+            x[slideIndex[0]-1].style.display = "block";
+        }
+
+        function showDivs1(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides1");
+            if (n > x.length) {slideIndex[1] = 1}
+            if (n < 1) {slideIndex[1] = x.length} ;
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            x[slideIndex[1]-1].style.display = "block";
+        }
+
+        function showDivs2(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides2");
+            if (n > x.length) {slideIndex[2] = 1}
+            if (n < 1) {slideIndex[2] = x.length} ;
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            x[slideIndex[2]-1].style.display = "block";
+        }
+
+        function showDivs3(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides3");
+            if (n > x.length) {slideIndex[3] = 1}
+            if (n < 1) {slideIndex[3] = x.length} ;
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            x[slideIndex[3]-1].style.display = "block";
+        }
+    </script>
+</body>
+</html>
