@@ -209,10 +209,16 @@ th, td {
     height: 100%;
 }
 
-.slideTable1, .slideTable2, .slideTable3, .slideTable4, .slideTable5, .slideTable6 {
+.slideTable1, .slideTable2, .slideTable3, .slideTable4, .slideTable5 {
     font-size: 23px;
     border: 1px solid transparent;
     line-height: 80%;
+}
+
+.sliderTable6 {
+  font-size: 23px;
+  border: 1px solid transparent;
+  line-height: 140%;
 }
 
 .slideExpand1, .slideExpand2 {
