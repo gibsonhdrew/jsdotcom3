@@ -1,0 +1,20 @@
+jsdotcom3 project
+
+#+BEGIN_SRC shell
+ls .
+#+END_SRC 
+
+#+RESULTS:
+| CNAME                      |
+| css                        |
+| cv                         |
+| graphic-design             |
+| images                     |
+| index.html                 |
+| js                         |
+| performance                |
+| project.org                |
+| Sunwoo-Jaime-Inventory.pdf |
+| visualart                  |
+
+* main files 
