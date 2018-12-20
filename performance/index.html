@@ -10,6 +10,23 @@
 </head>
 <body>
     <div class='bodyContent'>
+
+        <br>
+        <div id='ear-to-ear' class='anchor'></div>
+        <h2 class='db1 sectTitle'>Ear to Ear</h2>
+        <div class='slideshow'>
+            <div class='mySlides9'>
+                <img class='slideImg' src="../images/performance/ear-to-ear/ear-to-ear.jpg">
+                <p class='caption'></p>
+            </div>
+        </div>
+        <p class='bodyText'>In Ear to Ear, artist Jaime Sunwoo welcomed passerby to press their ear against hers to listen to each other's inner sounds while taking turns eating different textured foods. While one person sampled crunchy pretzels, chewy gummy bears, and fizzy pop rocks, the other listened, getting a rare glimpse into another person's physical perspective. The experience is playful and intimate, an act of empathy through touch and sound. By pressing ears together, sounds travel from one person to the other via bone conduction, vibrations through the skull.</p>
+        <p class='bodyText'>
+Ear to Ear is an attempt to see 'eye to eye' with others. To protect ourselves, we normally guard our senses around strangers. Strangers lack our trust and intimacy so we tend to avoid eye contact, are quieter, and certainly do not touch. Ear to Ear is a celebratory act to share the senses with someone you are willing to trust just for a moment. Over eighty people participated in the project during the Art in Odd Places Festival 2018. Videos of the encounters were uploaded on Instagram under #EartoEarNYC.</p>
+        <div class='slideTable9 frameDiv'>
+          <iframe src="https://player.vimeo.com/video/306088799?title=0&byline=0&portrait=0" frameborder="0"
+                webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </div>
         <br>
 
         <div id='earshot' class='anchor'></div>
@@ -349,6 +366,7 @@
         </ul>
         <div id='performanceSlider'>
 					<div class='slideNavs'>
+						<a href='#ear-to-ear'><li class='slideNav'>Ear To Ear</li></a>
 						<a href='#earshot'><li class='slideNav'>Earshot</li></a>
 						<a href='#household'><li>Household</li></a>
 						<a href='#rot'><li>Rot</li></a>
@@ -451,6 +469,17 @@
             }
         })
 
+      $('.slideTarget9').click(function() {
+      if (slide9==false){
+      $('.slideTable9').slideDown({duration: 400});
+      $('.slideExpand9Inner').text('collapse');
+      slide9=true;
+      } else {
+      $('.slideTable9').slideUp({duration: 400});
+      $('.slideExpand9Inner').text('expand');
+      slide9=false;
+      }
+      })
 
         // refactor this
 
@@ -524,6 +553,18 @@
             }
             x[slideIndex[3]-1].style.display = "block";
         }
+
+      function showDivs9(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides3");
+      if (n > x.length) {slideIndex[3] = 1}
+      if (n < 1) {slideIndex[3] = x.length} ;
+      for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+      }
+      x[slideIndex[3]-1].style.display = "block";
+      }
+
     </script>
 </body>
 </html>
