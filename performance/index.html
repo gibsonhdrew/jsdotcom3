@@ -541,23 +541,23 @@
             }
         })
 
-      $('.slideTarget9').click(function() {
-      if (slide9==false){
-      $('.slideTable9').slideDown({duration: 400});
-      $('.slideExpand9Inner').text('collapse');
-      slide9=true;
-      } else {
-      $('.slideTable9').slideUp({duration: 400});
-      $('.slideExpand9Inner').text('expand');
-      slide9=false;
-      }
-      })
+        $('.slideTarget9').click(function() {
+            if (slide9==false){
+                $('.slideTable9').slideDown({duration: 400});
+                $('.slideExpand9Inner').text('collapse');
+            slide9=true;
+            } else {
+                $('.slideTable9').slideUp({duration: 400});
+                $('.slideExpand9Inner').text('expand');
+            slide9=false;
+            }
+        })
 
         // refactor this
 
         var slideIndex = [];
 
-        for (i = 0; i < 4; i++) {
+        for (i = 0; i < 11; i++) {
             slideIndex[i] = 1;
         }
 
@@ -565,6 +565,7 @@
         showDivs1(slideIndex[1]);
         showDivs2(slideIndex[2]);
         showDivs3(slideIndex[3]);
+        showDivs10(slideIndex[10]);
 
         function plusDivs0(n) {
             showDivs0(slideIndex[0] += n);
@@ -581,6 +582,11 @@
         function plusDivs3(n) {
             showDivs3(slideIndex[3] += n);
         }
+
+        function plusDivs10(n) {
+            showDivs10(slideIndex[3] += n);
+        }
+
 
         function showDivs0(n) {
             var q;
@@ -624,6 +630,17 @@
                 x[i].style.display = "none";
             }
             x[slideIndex[3]-1].style.display = "block";
+        }
+
+        function showDivs10(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides3");
+            if (n > x.length) {slideIndex[10] = 1}
+            if (n < 1) {slideIndex[10] = x.length} ;
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            x[slideIndex[10]-1].style.display = "block";
         }
 
       function showDivs9(n) {
