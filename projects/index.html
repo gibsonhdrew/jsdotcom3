@@ -12,6 +12,22 @@
     <div class='bodyContent'>
 
         <br>
+        <div id='equality-tea' class='anchor'></div>
+        <h2 class='db4 sectTitle'>Equality Tea</h2>
+        <p class='bodyText'>
+	  Throughout America, women organized tea parties for meetings and fundraisers to support the suffrage movement. The Woman’s Suffrage Party sold ceylon, young hyson, gunpowder, and oolong tea under their charitable brand “Equality Tea.” Yet the history of tea is steeped in inequality, driven by colonialism, war, and appropriation. In her short film, <i>Equality Tea</i>, Sunwoo brews tea while drawing parallels between the fraught histories of the tea trade and the suffrage movement.
+	</p>
+	<p class='bodyText'>
+	  Created by Jaime Sunwoo. Original score by Matt Chilton, based on a 1895 suffragist anthem by Augusta Gray Gunn. Commissioned by Park Avenue Armory and The Laundromat Project for <a href="https://www.100years100women.net/participants/project-one-y4299"><b><i>100 Years | 100 Women</i></b></a>.
+	</p>
+	<p class='bodyText slideTarget10'>Video: <span class='slideExpand2'>&#40;<span class='slideExpand2Inner'>expand</span>&#41;</span></p> 
+        <div class='slideTable10 frameDiv'>
+	  <iframe src="https://www.youtube.com/embed/r8CncHCfu5I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <br>
+
+
+        <br>
         <div id='speciallyprocessed' class='anchor'></div>
         <h2 class='db1 sectTitle'>Specially Processed American Me</h2>
         <a href="https://speciallyprocessed.com"><img class='slideImg' src="../images/performance/speciallyprocessed/spamfinal2.jpg"></a>
@@ -549,6 +565,18 @@ In addition to performances, <i>Specially Processed American Me</i> holds food h
                 $('.slideTable9').slideUp({duration: 400});
                 $('.slideExpand9Inner').text('expand');
             slide9=false;
+            }
+        })
+
+        $('.slideTarget10').click(function() {
+            if (slide10==false){
+                $('.slideTable10').slideDown({duration: 400});
+                $('.slideExpand10Inner').text('collapse');
+            slide10=true;
+            } else {
+                $('.slideTable10').slideUp({duration: 400});
+                $('.slideExpand10Inner').text('expand');
+            slide10=false;
             }
         })
 
