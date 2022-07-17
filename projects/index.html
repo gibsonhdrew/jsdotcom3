@@ -73,11 +73,59 @@
       <br />
       <div id="speciallyprocessed" class="anchor"></div>
       <h2 class="db1 sectTitle">Specially Processed American Me</h2>
-      <a href="https://speciallyprocessed.com"
-        ><img
-          class="slideImg"
-          src="../images/performance/speciallyprocessed/spamfinal2.jpg"
-      /></a>
+
+      <div class="slideshow">
+        <div class="mySlides11">
+          <img class="slideImg" src="http://speciallyprocessed.com/images/photos-performance/4.jpg"/>
+          <p class="caption">Photo by Toby Tenenbaum [1/10]</p>
+	</div>
+        <div class="mySlides11">
+          <img class="slideImg" src="http://speciallyprocessed.com/images/photos-performance/2.jpg"/>
+          <p class="caption">Photo by Toby Tenenbaum [2/10]</p>
+	</div>
+        <div class="mySlides11">
+          <img class="slideImg" src="http://speciallyprocessed.com/images/photos-performance/20.jpg"/>
+          <p class="caption">Photo by Toby Tenenbaum [3/10]</p>
+	</div>
+        <div class="mySlides11">
+          <img class="slideImg" src="http://speciallyprocessed.com/images/photos-performance/12.jpg"/>
+          <p class="caption">Photo by Toby Tenenbaum [4/10]</p>
+	</div>
+        <div class="mySlides11">
+          <img class="slideImg" src="http://speciallyprocessed.com/images/photos-performance/6.jpg"/>
+          <p class="caption">Photo by Toby Tenenbaum [5/10]</p>
+	</div>
+        <div class="mySlides11">
+          <img class="slideImg" src="http://speciallyprocessed.com/images/photos-performance/3.jpg"/>
+          <p class="caption">Photo by Toby Tenenbaum [6/10]</p>
+	</div>
+        <div class="mySlides11">
+          <img class="slideImg" src="http://speciallyprocessed.com/images/photos-performance/5.jpg"/>
+          <p class="caption">Photo by Toby Tenenbaum [7/10]</p>
+	</div>
+        <div class="mySlides11">
+          <img class="slideImg" src="http://speciallyprocessed.com/images/photos-performance/1.jpg"/>
+          <p class="caption">Photo by Toby Tenenbaum [8/10]</p>
+	</div>
+        <div class="mySlides11">
+          <img class="slideImg" src="http://speciallyprocessed.com/images/photos-performance/26.jpg"/>
+          <p class="caption">Photo by Toby Tenenbaum [9/10]</p>
+	</div>
+        <div class="mySlides11">
+          <img class="slideImg" src="http://speciallyprocessed.com/images/photos-performance/37.jpg"/>
+          <p class="caption">Photo by Toby Tenenbaum [10/10]</p>
+	</div>
+      </div>
+
+      <div style="text-align: center; font-size: 36px">
+        <button class="w3-button w3-display-left" onclick="plusDivs11(-1)">
+          &#10094;
+        </button>
+        <button class="w3-button w3-display-right" onclick="plusDivs11(+1)">
+          &#10095;
+        </button>
+      </div>
+
       <p class="bodyText">
         <i>Specially Processed American Me</i> by Jaime Sunwoo is a surreal
         autobiographical performance using SPAM, the canned meat, as a portal
@@ -1109,7 +1157,7 @@
 
       var slideIndex = [];
 
-      for (i = 0; i < 11; i++) {
+      for (i = 0; i < 12; i++) {
         slideIndex[i] = 1;
       }
 
@@ -1118,6 +1166,7 @@
       showDivs2(slideIndex[2]);
       showDivs3(slideIndex[3]);
       showDivs10(slideIndex[10]);
+      showDivs11(slideIndex[11]);
 
       function plusDivs0(n) {
         showDivs0((slideIndex[0] += n));
@@ -1137,6 +1186,10 @@
 
       function plusDivs10(n) {
         showDivs10((slideIndex[10] += n));
+      }
+
+      function plusDivs11(n) {
+        showDivs11((slideIndex[11] += n));
       }
 
       function showDivs0(n) {
@@ -1228,6 +1281,22 @@
         }
         x[slideIndex[3] - 1].style.display = "block";
       }
+
+      function showDivs11(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides11");
+        if (n > x.length) {
+          slideIndex[11] = 1;
+        }
+        if (n < 1) {
+          slideIndex[11] = x.length;
+        }
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        x[slideIndex[11] - 1].style.display = "block";
+      }
+
     </script>
   </body>
 </html>
