@@ -110,7 +110,7 @@
       </p>
 
       <p class="bodyText">
-        Dixon Place, Ping Chong and Company, and Free Rein Projects will present
+        Dixon Place, Ping Chong and Company, and Free Rein Projects presented
         the world premiere of Specially Processed American Me at Dixon Place in
         New York City from January 27- February 2022.
         <a href="http://dixonplace.org/performances/spam/"
@@ -154,7 +154,41 @@
           <img class="slideImg" src="../images/performance/handwritten/0.png" />
           <p class="caption"></p>
         </div>
+        <div class="mySlides12">
+          <img class="slideImg" src="../images/performance/handwritten/1.png" />
+          <p class="caption"></p>
+        </div>
+        <div class="mySlides12">
+          <img class="slideImg" src="../images/performance/handwritten/2.png" />
+          <p class="caption"></p>
+        </div>
+        <div class="mySlides12">
+          <img class="slideImg" src="../images/performance/handwritten/3.png" />
+          <p class="caption"></p>
+        </div>
+        <div class="mySlides12">
+          <img class="slideImg" src="../images/performance/handwritten/4.png" />
+          <p class="caption"></p>
+        </div>
+        <div class="mySlides12">
+          <img class="slideImg" src="../images/performance/handwritten/5.png" />
+          <p class="caption"></p>
+        </div>
+        <div class="mySlides12">
+          <img class="slideImg" src="../images/performance/handwritten/6.png" />
+          <p class="caption"></p>
+        </div>
       </div>
+
+      <div style="text-align: center; font-size: 36px">
+        <button class="w3-button w3-display-left" onclick="plusDivs12(-1)">
+          &#10094;
+        </button>
+        <button class="w3-button w3-display-right" onclick="plusDivs12(+1)">
+          &#10095;
+        </button>
+      </div>
+
       <p class="bodyText">
         <i>Handwritten</i> by Jaime Sunwoo is a personal reflection on the
         significance of handwriting in her own life and throughout history,
@@ -1072,6 +1106,7 @@
       <div id="performanceSlider">
         <div class="slideNavs">
           <a href="#speciallyprocessed"><li>Specially Processed...</li></a>
+          <a href="#handwritten"><li>Handwritten</li></a>
           <a href="#you-are-the-news"><li>You Are The News Now</li></a>
           <a href="#equality-tea"><li>Equality Tea</li></a>
           <a href="#regeneration-lab"><li>reGENEration lab</li></a>
@@ -1214,7 +1249,7 @@
 
       var slideIndex = [];
 
-      for (i = 0; i < 12; i++) {
+      for (i = 0; i < 13; i++) {
         slideIndex[i] = 1;
       }
 
@@ -1224,6 +1259,7 @@
       showDivs3(slideIndex[3]);
       showDivs10(slideIndex[10]);
       showDivs11(slideIndex[11]);
+      showDivs12(slideIndex[12]);
 
       function plusDivs0(n) {
         showDivs0((slideIndex[0] += n));
@@ -1247,6 +1283,10 @@
 
       function plusDivs11(n) {
         showDivs11((slideIndex[11] += n));
+      }
+
+      function plusDivs12(n) {
+        showDivs12((slideIndex[12] += n));
       }
 
       function showDivs0(n) {
@@ -1352,6 +1392,21 @@
           x[i].style.display = "none";
         }
         x[slideIndex[11] - 1].style.display = "block";
+      }
+
+      function showDivs12(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides12");
+        if (n > x.length) {
+          slideIndex[12] = 1;
+        }
+        if (n < 1) {
+          slideIndex[12] = x.length;
+        }
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        x[slideIndex[12] - 1].style.display = "block";
       }
     </script>
   </body>
